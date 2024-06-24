@@ -883,6 +883,11 @@ section,
   overflow: clip;
 }
 
+#why-us , #team
+{
+background-color: #e3b05e;
+}
+
 @media (max-width: 1199px) {
 
   section,
