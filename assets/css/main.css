@@ -105,7 +105,7 @@
 }
 
 .img-fluid1 {
-  max-width: 200%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -556,7 +556,6 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
   position: relative;
 }
 
@@ -665,7 +664,7 @@ h6 {
 }
 
 .footer .footer-top {
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .footer .social-links a {
@@ -744,8 +743,9 @@ h6 {
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px; 
+  background-color: #e3b05e;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -1065,16 +1065,28 @@ background-color: #e3b05e;
 
 .clients .swiper-wrapper {
   height: auto;
+  display: flex;
+  width: 300%; /* Total width for 3 slides */
+
 }
 
 .clients .swiper-slide img {
   transition: 0.3s;
   padding: 0 10px;
+  width: 100vw;
+  flex-shrink: 0;
 }
 
 .clients .swiper-slide img:hover {
   transform: scale(1.1);
 }
+
+@keyframes slide-animation {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(0%); }
+  50% { transform: translateX(-100%); }
+  83% { transform: translateX(-100%); }
+  100% { transform: translateX(-200%); } }
 
 /*--------------------------------------------------------------
 # About Section
@@ -2231,7 +2243,6 @@ background-color: #e3b05e;
 
 /*--------------------------------------------------------------
 # Starter Section Section
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .starter-section {
-  /* Add your styles here */
-}
+  /* Add your styles here } */ 
