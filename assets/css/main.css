@@ -758,6 +758,231 @@ h6 {
   font-size: 13px;
 }
 
+.careers-cover img {
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Style for the container */
+.history-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+/* Style for the timeline */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for each row in the timeline */
+.timeline-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-row::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+  z-index: -1;
+}
+
+/* Remove the vertical line for single-item row */
+.timeline-row.single-item::after {
+  display: none;
+}
+
+/* Style for the timeline items */
+.timeline-item {
+  width: 45%; /* Adjust the width as needed */
+  position: relative;
+}
+
+.timeline-item.left {
+  text-align: right;
+}
+
+.timeline-item.right {
+  text-align: left;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item.left::after {
+  right: -13px;
+}
+
+.timeline-item.right::after {
+  left: -13px;
+}
+
+.content {
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.content img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for the year in the middle of the timeline row */
+.timeline-year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.timeline-year p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Style for the full-height line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+  z-index: -1;
+}
+
+section {
+  /* padding: 40px 20px; */
+  text-align: center;
+}
+
+.export-line, .countries {
+  background-color: #f4b400;
+  color: #fff;
+}
+
+.export-line .content, .countries .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.export-line .mission, .export-line .vision, .countries .country {
+  width: 45%;
+  margin: 20px 0;
+}
+
+.export-line .mission img, .export-line .vision img, .countries .country img {
+  width: 100px;
+  height: auto;
+}
+
+.brands, .events {
+  background-color: #fff;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  padding: 20px 0;
+}
+
+.carousel img {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.packs {
+  background-color: #fff;
+}
+
+.packs .content {
+  display: flex;
+  justify-content: center;
+}
+
+.packs img {
+  width: 300px;
+  height: auto;
+}
+
+.custom-img {
+  height: 300px;
+  width: 500px;
+}
+
+.footer-container
+{
+  max-width: 100%;
+  background-color: #001522;
+  text-align: center;
+  height: 60px;
+  
+}
+
+.container-copyright
+{
+  max-width: 100%;
+  background-color: #e3b05e;
+  
+  height: 60px;
+}
+
+.header img
+{
+  height: 100px;
+  width: 200px;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
