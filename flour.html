@@ -146,8 +146,8 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Flour</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="flour.html">Flour</a></li>
           <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Milano</a></li>
@@ -159,7 +159,7 @@
             </ul>
           </li>
           <li><a href="capabilites.html">Capabilities</a></li>
-          <li><a href="#team">Export</a></li>
+          <li><a href="export.html">Export</a></li>
           <li><a href="careers.html">Careers</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -174,144 +174,95 @@
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
-      <img src="assets/img/cta-bg.jpg" alt="">
+    <section id="flour-cover" class="flour-cover">
+      <img src="assets/img/cta-bg.jpg" class="custom-image" alt="">
     </section>  
     <!-- /Hero Section -->
 
-    <!-- Faq 2 Section -->
-    <section id="faq-2" class="faq-2 section">
+        <!-- Clients Section -->
+        <section id="clients" class="clients section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Frequently Asked Questions</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
+          <div class="container" data-aos="zoom-in">
+    
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 2,
+                      "spaceBetween": 40
+                    },
+                    "480": {
+                      "slidesPerView": 3,
+                      "spaceBetween": 60
+                    },
+                    "640": {
+                      "slidesPerView": 4,
+                      "spaceBetween": 80
+                    },
+                    "992": {
+                      "slidesPerView": 5,
+                      "spaceBetween": 120
+                    },
+                    "1200": {
+                      "slidesPerView": 6,
+                      "spaceBetween": 120
+                    }
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+              </div>
+            </div>
+    
+          </div>
+    
+        </section><!-- /Clients Section -->
+
+            <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
 
-
-    </section><!-- /Faq 2 Section -->
-
-
-   <!-- Team Section -->
-   <section id="team" class="team section">
-
-    <div class="container">
-
-        <div class="row gy-4">
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Walter White">
-                    </div>
-                    <div class="member-info">
-                        <h4>Walter White</h4>
-                        <span>Chief Executive Officer</span>
-                        <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-            </div><!-- End Team Member -->
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+        
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Sarah Jhonson">
-                    </div>
-                    <div class="member-info">
-                        <h4>Sarah Jhonson</h4>
-                        <span>Product Manager</span>
-                        <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                        <div class="social">
-                            <a href=""><i class="bi bi-twitter"></i></a>
-                            <a href=""><i class="bi bi-facebook"></i></a>
-                            <a href=""><i class="bi bi-instagram"></i></a>
-                            <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
+      </div>
 
-        </div>
-
-    </div>
-
-  </section><!-- /Team Section -->
-
-
-  <div class="container history-container">
-    <h1>Our Pasta History</h1>
-    <div class="timeline">
-        <!-- First Row with single right item -->
-        <div class="timeline-row single-item">
-            <div class="timeline-year single-year">
-                <p>2014</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content">
-                    <img src="pasta2.jpg" alt="Pasta Image 2">
-                    <p>Launched its premium brand "MILANO"</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Row with items on both sides -->
-        <div class="timeline-row">
-            <div class="timeline-item left">
-                <div class="content">
-                    <img src="pasta1.jpg" alt="Pasta Image 1">
-                    <p>Milano was started with ASSI: 400 gm & CAWANDI: 350 gm</p>
-                </div>
-            </div>
-            <div class="timeline-year">
-                <p>2003</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content">
-                    <img src="pasta2.jpg" alt="Pasta Image 2">
-                    <p>Launched its premium brand "MILANO"</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Row 2 -->
-        <div class="timeline-row">
-            <div class="timeline-item left">
-                <div class="content">
-                    <img src="pasta3.jpg" alt="Pasta Image 3">
-                    <p>ASSI 400 gm was changed into ASSI: 300 gm</p>
-                </div>
-            </div>
-            <div class="timeline-year">
-                <p>2017</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content">
-                    <img src="pasta4.jpg" alt="Pasta Image 4">
-                    <p>ROYAL turned into double square thin & will change the pack to GOLDEN ROYAL</p>
-                </div>
-            </div>
-        </div>
-          <!--  single right item -->
-          <div class="timeline-row single-item">
-            <div class="timeline-year single-year">
-                <p>2014</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content">
-                    <img src="pasta2.jpg" alt="Pasta Image 2">
-                    <p>Launched its premium brand "MILANO"</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </section><!-- /Testimonials Section -->
 
   </main>
 
