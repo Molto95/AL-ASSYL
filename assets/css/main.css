@@ -260,7 +260,8 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color:white;
+  --background-color:#efeded;
+
 }
 
 /*--------------------------------------------------------------
@@ -2529,6 +2530,7 @@ section {
   margin-bottom: 15px;
 }
 
+
 @media (min-width: 576px) {
   .container-custom {
       max-width: 540px;
@@ -2621,3 +2623,4 @@ section {
       margin: 0 5px;
       color: #333;
   }
+
