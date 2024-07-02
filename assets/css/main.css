@@ -1535,7 +1535,7 @@ background-color: #e3b05e;
 
 .team .team-member .pic {
   overflow: hidden;
-  width: 150px;
+  width: 220px;
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -1548,7 +1548,7 @@ background-color: #e3b05e;
 
 .content-timeline img
 {
-    width: 400px;
+    width: 300px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -2332,10 +2332,9 @@ h1 {
 }
 
 .content {
-  padding: 20px;
+  padding: 50px;
   background-color: white;
   position: relative;
-  border: 1px solid #ddd;
   border-radius: 6px;
 }
 
@@ -2668,5 +2667,4 @@ section {
   .social a {
       margin: 0 5px;
       color: #333;
-  }
-
+  } 
