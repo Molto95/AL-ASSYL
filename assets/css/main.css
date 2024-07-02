@@ -128,7 +128,7 @@
 .custom-swiper-button-next span,
 .custom-swiper-button-prev span {
   font-size: 20px;
-  color: rgba(var(--color-white-rgb), 0.7);
+  color: white;
   transition: 0.3s all ease;
 }
 
@@ -260,9 +260,10 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color:#efeded;
+  --background-color: white;
 
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1516,9 +1517,9 @@ background-color: #e3b05e;
 # Team Section
 --------------------------------------------------------------*/
 .team .team-member {
-  box-shadow: 0px 2px 15px color-mix(in srgb, var(--default-color), transparent 90%);
+
   position: relative;
-  border-radius: 5px;
+
   transition: 0.5s;
   padding: 30px;
   height: 100%;
@@ -1541,7 +1542,8 @@ background-color: #e3b05e;
 
 .team .team-member .pic img {
   transition: ease-in-out 0.3s;
-  
+  margin-left: 30px;
+
 }
 
 .content-timeline img
@@ -2443,19 +2445,15 @@ section {
 
 .footer-container
 {
-  max-width: 100%;
+
   background-color: #001522;
-  text-align: center;
-  height: 60px;
+
   
 }
 
 .container-copyright
 {
-  max-width: 100%;
   background-color: #e3b05e;
-  
-  height: 60px;
 }
 
 .header img
@@ -2528,6 +2526,54 @@ section {
 .call-to-action h3, 
 .call-to-action p {
   margin-bottom: 15px;
+}
+
+
+.inline-title {
+  text-align: left; /* Ensures left alignment */
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+  color: #001522;
+}
+
+.inline-description {
+  text-align: left; /* Ensures left alignment */
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+  color: #001522;
+}
+
+.main-title
+{
+  color:#001522;
+}
+
+@media (min-width: 768px) {
+  .col-md-5 {
+      flex: 0 0 auto;
+      width: 45.66666667%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container{
+      max-width: 1550px;
+  }
+}
+
+.color-white
+{
+  color: white;
+}
+
+.left
+{
+  margin-left: 150px;
+}
+
+.center
+{
+  text-align: center;
 }
 
 
