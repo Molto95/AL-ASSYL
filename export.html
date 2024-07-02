@@ -128,6 +128,50 @@
             margin: 0 5px;
             color: #333;
         }
+
+        .events-slider
+        {
+          margin-left:300px;
+          max-height: 450px;
+        }
+        .pack-content img
+        {
+          width: 600px;
+          height: 300px;
+        }
+        .team-member {
+            margin-bottom: 40px;
+        }
+
+        .pic {
+            margin-right: 20px;
+        }
+
+        .pic img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        .member-info h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .member-info span {
+            font-size: 14px;
+            color: gray;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .member-info p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .social a {
+            margin-right: 10px;
+        }
 </style>
 
 </head>
@@ -175,122 +219,317 @@
     
     <!-- Hero Section -->
     <section id="careers-cover" class="careers-cover">
-      <img src="assets/img/cta-bg.jpg" alt="">
-    </section>  
+      <img src="assets/img/cta-bg.jpg" class="custom-image" style="height: 500px;">
+    </section> 
     <!-- /Hero Section -->
 
-    <section class="export-line">
-      <h2>Our Export Line</h2>
-      <div class="content">
-          <div class="mission">
-              <img src="mission.png" alt="Mission">
-              <h3>Mission</h3>
-              <p>Details about the mission...</p>
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p>
+          With 25 years of experience in the pasta and milling industry, Milano for Food
+          <br>
+          Industries has become a 
+          leading company in the field of pasta manufacturing using the latest <br>technology and producing the best 
+          quality possible.
+        </p>
+      </div><!-- End Section Title -->
+
+
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class=" px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><strong>ALASSIL FOOD COMPANY</strong></h3>
+              <p>
+                Al Assil Egypt is a leading producer and exporter of durum wheat. The company was 
+                established as a family business in 1980 when Al-Assil acquired his first mill for grinding 
+                grain in El Senbellawein, a small agricultural town near Mansoura.
+              </p>
+              <p>
+
+              </p>
+            </div>
+
           </div>
-          <div class="vision">
-              <img src="vision.png" alt="Vision">
-              <h3>Vision</h3>
-              <p>Details about the vision...</p>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/Factory-Illustrations.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
           </div>
+        </div>
+
       </div>
-  </section>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
   
-  <section class="brands">
-      <h2>Our Brands</h2>
-      <div class="carousel">
-          <img src="brand1.png" alt="Brand 1">
-          <img src="brand2.png" alt="Brand 2">
-          <img src="brand3.png" alt="Brand 3">
-          <!-- Add more brand images as needed -->
-      </div>
-  </section>
+
+
+    </section><!-- /Why Us Section -->
   
-  <section class="countries">
-      <h2>Countries We Export To</h2>
-      <div class="content">
-          <div class="country">
-              <img src="africa.png" alt="Africa">
-              <p>Africa</p>
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
           </div>
-          <div class="country">
-              <img src="usa.png" alt="USA">
-              <p>USA</p>
-          </div>
-          <div class="country">
-              <img src="venezuela.png" alt="Venezuela">
-              <p>Venezuela</p>
-          </div>
+        </div>
+
       </div>
-  </section>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Countries We Export To</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row ">
+
+          <div class="col-xl-4 col-md-6 " >
+            <div class="service-item ">
+              <div class="icon"><img src="assets/img/USA.png" alt="Mission Icon"></div>
+              <h4><a href="service-details.html" class="stretched-link">GULF COUNTRIES</a></h4>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" >
+            <div class="service-item ">
+              <div class="icon"><img src="assets/img/Venezuela.png" alt="Mission Icon"></div>
+              <h4><a href="service-details.html" class="stretched-link">USA</a></h4>    
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6 " >
+            <div class="service-item ">
+              <div class="icon"><img src="assets/img/Uruguay.png" alt="Mission Icon"></div>
+              <h4><a href="service-details.html" class="stretched-link">SINGAPORE</a></h4>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- End Service Item -->
+
+        </div>
+
+        <br>
+
+        <div class="row">
+
+          <div class="col-xl-4 col-md-6 " >
+            <div class="service-item ">
+              <div class="icon"><img src="assets/img/USA.png" alt="Mission Icon"></div>
+              <h4><a href="service-details.html" class="stretched-link">GULF COUNTRIES</a></h4>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6 " >
+            <div class="service-item ">
+              <div class="icon"><img src="assets/img/Venezuela.png" alt="Mission Icon"></div>
+              <h4><a href="service-details.html" class="stretched-link">USA</a></h4>    
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6 " >
+            <div class="service-item ">
+              <div class="icon"><img src="assets/img/Uruguay.png" alt="Mission Icon"></div>
+              <h4><a href="service-details.html" class="stretched-link">SINGAPORE</a></h4>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
   
   <section class="events">
       <h2>Events We Regularly Participate In</h2>
-      <div class="carousel">
-          <img src="event1.jpg" alt="Event 1">
-          <img src="event2.jpg" alt="Event 2">
-          <!-- Add more event images as needed -->
-      </div>
+      <p>We make sure we’re present in important FMCG events worldwide, such as Gulf
+        <br>
+        Food in Dubai, Anuga in 
+        Germany, Foodex in Japan, SIAL in Paris, Food Fancy in the <br> USA, and FOOD AFRICA in Egypt.</p>
+
+          <div  data-aos="fade-in">
+            <div class="row events-slider">
+              <div class="col-9">
+                <div class="swiper sliderFeaturedPosts">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');"></a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
+                      </a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
+                      </a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');"></a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');"></a>
+                    </div>
+    
+                  </div>
+                  <div class="custom-swiper-button-next">
+                    <span class="bi-chevron-right"></span>
+                  </div>
+                  <div class="custom-swiper-button-prev">
+                    <span class="bi-chevron-left"></span>
+                  </div>
+    
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
   </section>
   
   <section class="packs">
       <h2>Our Packs</h2>
-      <div class="content">
-          <img src="packs.png" alt="Packs">
+      <div class="pack-content">
+          <img src="assets/img/Royal.png" alt="Packs">
       </div>
   </section>
   </main>
 
   <footer id="footer" class="footer">
 
-    <div class="container footer-top">
+    <div class="footer-container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">AL ASSYL GROUP</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+
+          <div class="footer-contact ">
+
+            <p class=""><strong>Phone:</strong> <span>20 - 237604592 / 3</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-          </ul>
+          <p><strong>Email:</strong> <span>info@alassyl.com.eg</span></p>
+        
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-          <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
       </div>
     </div>
     
-    <div class="container copyright text-center mt-4">
+    <div class="container-copyright copyright text-center ">
       <p><span>All Rights Reserved</span> ©<strong class="px-1 sitename">AL ASSYL GROUP 2024</strong></p>
     </div>
 
