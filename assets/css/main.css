@@ -261,6 +261,7 @@ h6 {
 ------------------------------*/
 .index-page.scrolled .header {
   --background-color:#efeded;
+
 }
 
 /*--------------------------------------------------------------
@@ -2460,7 +2461,7 @@ section {
 .header img
 {
   height: 100px;
-  width: 200px;
+  width: 110px;
 }
 
 .content h5, .content p {
@@ -2528,4 +2529,98 @@ section {
 .call-to-action p {
   margin-bottom: 15px;
 }
+
+
+@media (min-width: 576px) {
+  .container-custom {
+      max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-custom {
+      max-width: 740px; /* Increase the max-width for md and larger screens */
+  }
+}
+@media (min-width: 992px) {
+  .container-custom {
+      max-width: 960px; /* Increase the max-width for lg and larger screens */
+  }
+}
+@media (min-width: 1200px) {
+  .container-custom {
+      max-width: 2500px; /* Increase the max-width for xl and larger screens */
+  }
+}
+
+.vertical-line {
+  width: 1px;
+  height: 100%;
+  background-color: #000; /* Adjust the color as needed */
+}
+
+.image-title-container {
+      text-align: center; /* Center the titles */
+      margin-bottom: 20px; /* Space between items */
+      flex: 1 0 18%; /* Adjust to fit five items in a row */
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+.image-title-container img {
+  max-width: 150%; /* Ensure images are responsive */
+}
+
+.title {
+  margin-top: 5px; /* Space between image and title */
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the text color as needed */
+}
+
+@media (max-width: 768px) {
+  .vertical-line {
+      display: none; /* Hide the vertical line on smaller screens */
+  }
+
+  .image-title-container {
+      flex: 0 0 100%; /* Stack items on smaller screens */
+  }
+}
+
+.team-member {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .pic {
+      margin-bottom: 15px;
+  }
+  .pic img {
+      max-width: 100%;
+      height: auto;
+  }
+  .member-info {
+      flex: 1;
+  }
+  .member-info h4 {
+      margin-top: 10px;
+      font-size: 18px;
+  }
+  .member-info span {
+      display: block;
+      font-size: 14px;
+      margin-top: 5px;
+  }
+  .member-info p {
+      margin-top: 10px;
+  }
+  .social {
+      margin-top: 15px;
+  }
+  .social a {
+      margin: 0 5px;
+      color: #333;
+  }
 
