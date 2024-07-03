@@ -148,7 +148,7 @@
   
             <div class="col-xl-4 col-md-6 " data-aos="fade-up" data-aos-delay="200">
               <div class="service-item position-relative">
-                <h4><a href="service-details.html" class="stretched-link">FINANCIAL ACCOUNTANT</a></h4>
+                <h4><a href="career-details-financial-accountant.php" class="stretched-link">FINANCIAL ACCOUNTANT</a></h4>
                 <p>10 MAY 2023</p>
               </div>
             </div><!-- End Service Item -->

@@ -1,15 +1,3 @@
-/**
-* Template Name: Arsha
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Updated: Jun 14 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -1785,10 +1773,18 @@ background-color: #e3b05e;
 
 .testimonials .testimonial-item .testimonial-img {
   width: 420px;
-  border-radius: 50%;
-  border: 4px solid var(--background-color);
   margin: 0 auto;
   height:300px;
+  max-width: 100%;
+  height: auto
+}
+
+.testimonial-brand {
+  width: 300px;
+  margin: 0 auto;
+  height:300px;
+  max-width: 100%;
+  height: auto
 }
 
 .testimonials .testimonial-item h3 {
@@ -2667,4 +2663,59 @@ section {
   .social a {
       margin: 0 5px;
       color: #333;
-  } 
+  }
+  
+  .job-posting {
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    text-align: left;
+  }
+  
+  .section {
+    margin: 20px 0;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .section p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .countries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.country {
+    text-align: center;
+    width: 450px; /* Fixed width for consistency */
+    height: 300px; /* Fixed height to align text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.country img {
+    width: 100%;
+    height: 70%; /* Consistent height for images */
+    object-fit: contain; /* Ensure images fit well within the container */
+    display: block;
+}
+
+.country p {
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -116,7 +116,7 @@
     
     <!-- Hero Section -->
     <section id="careers-cover" class="careers-cover">
-        <img src="assets/img/cta-bg.jpg" class="custom-image" style="height: 500px;">
+        <img src="assets/img/ingredient-bags-full-flour.jpg" class="custom-image" style="height: 500px;">
       </section>  
       <!-- /Hero Section -->
 
