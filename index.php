@@ -8,65 +8,12 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/Al Assyl Logo V.png" rel="icon">
-  <link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+   <!-- Main Header File -->
+      <?php include 'header.php'; ?>  
 
 </head>
 
 <body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/Al Assyl Logo V.png" alt=""> 
-        <!-- <h1 class="sitename">AL ASSYL GROUP</h1> -->
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="flour.html">Flour</a></li>
-          <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="milano.html">Milano</a></li>
-              <li><a href="royal.html">Royal</a></li>
-              <li><a href="gawaher.html">Gawaher</a></li>
-              <li><a href="AlAssyl.html">Al Assyl</a></li>
-              <li><a href="ahmed-elsayad.html">Ahmed El Sayyad 10 KG</a></li>
-              <li><a href="gawaher10.html">Gawaher 10 Kg</a></li>
-            </ul>
-          </li>
-          <li><a href="capabilites.html">Capabilities</a></li>
-          <li><a href="export.html">Export</a></li>
-          <li><a href="careers.html">Careers</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="#about">Get Started</a>
-
-    </div>
-  </header>
 
   <main class="main">
     
@@ -289,30 +236,8 @@
 
   </main>
 
-  <footer id="footer" class="footer">
-
-    <div class="footer-container">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-
-          <div class="footer-contact ">
-            <p class="center color-white"><strong><i class="bi bi-telephone flex-shrink-0"></i></strong> <span>20 - 237604592 / 3</span></p>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-            <p class="color-white"><strong><i class="bi bi-envelope flex-shrink-0"></i></strong> <span>info@alassyl.com.eg</span></p>
-        </div>
-        <div class="col-lg-4 col-md-4 footer-links">
-            <p class="color-white"><strong><i class="bi bi-geo-alt flex-shrink-0"></i></strong> <span>Ahmed EL Sayed ST, El-Senbellawein City, Egypt.</span></p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container-copyright copyright text-center ">
-      <p><span>All Rights Reserved</span> ©<strong class="px-1 sitename">AL ASSYL GROUP 2024</strong></p>
-    </div>
-  </footer>
+  <!-- Main Footer File -->
+  <?php include 'footer.php'; ?> 
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

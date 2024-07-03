@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>AL ASSYL GROUP</title>
+  <title>Contact</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/Al Assyl Logo V.png" rel="icon">
+  <link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -26,14 +26,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Arsha
-  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-  * Updated: Jun 14 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== --> 
 
   <style>
     @media (min-width: 576px) {
@@ -139,23 +131,23 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/Vector-Smart-Object.gif" alt=""> 
+        <img src="assets/img/Al Assyl Logo V.png" alt=""> 
         <!-- <h1 class="sitename">AL ASSYL GROUP</h1> -->
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="flour.html">Flour</a></li>
           <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Milano</a></li>
-              <li><a href="#">Royal</a></li>
-              <li><a href="#">Gawaher</a></li>
-              <li><a href="#">Al Assyl</a></li>
-              <li><a href="#">Ahmed El Sayyad 10 KG</a></li>
-              <li><a href="#">Gawaher 10 Kg</a></li>
+              <li><a href="milano.html">Milano</a></li>
+              <li><a href="royal.html">Royal</a></li>
+              <li><a href="gawaher.html">Gawaher</a></li>
+              <li><a href="AlAssyl.html">Al Assyl</a></li>
+              <li><a href="ahmed-elsayad.html">Ahmed El Sayyad 10 KG</a></li>
+              <li><a href="gawaher10.html">Gawaher 10 Kg</a></li>
             </ul>
           </li>
           <li><a href="capabilites.html">Capabilities</a></li>
@@ -179,91 +171,92 @@
     </section>  
     <!-- /Hero Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
 
-      <div class="container" data-aos="zoom-in">
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 120
-                },
-                "1200": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/flour/01.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/02.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/03.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/04.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/05.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/01.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/02.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/flour/03.png" class="img-fluid" alt=""></div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
         </div>
 
       </div>
 
-    </section><!-- /Clients Section -->
-
-            <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-
-              <div class="testimonial-item">
-                <img src="assets/img/flour/02.png" class="testimonial-img" alt="">
-                <h3>HISTORY/POSITIONING</h3>
-
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>After proving successful as a pasta manufacturing 
-                    company, Al Assil expanded its portfolio of business by 
-                    acquiring a number of flour mills that produce various 
-                    types of flour for various purposes</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-        
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
+    </section><!-- /Contact Section -->
   </main>
 
   <footer id="footer" class="footer">
@@ -273,27 +266,22 @@
         <div class="col-lg-4 col-md-6 footer-about">
 
           <div class="footer-contact ">
-
-            <p class=""><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p class="center color-white"><strong><i class="bi bi-telephone flex-shrink-0"></i></strong> <span>20 - 237604592 / 3</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
-        
+            <p class="color-white"><strong><i class="bi bi-envelope flex-shrink-0"></i></strong> <span>info@alassyl.com.eg</span></p>
         </div>
-
-       
-
-   
-
+        <div class="col-lg-4 col-md-4 footer-links">
+            <p class="color-white"><strong><i class="bi bi-geo-alt flex-shrink-0"></i></strong> <span>Ahmed EL Sayed ST, El-Senbellawein City, Egypt.</span></p>
+        </div>
       </div>
     </div>
     
     <div class="container-copyright copyright text-center ">
       <p><span>All Rights Reserved</span> ©<strong class="px-1 sitename">AL ASSYL GROUP 2024</strong></p>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
