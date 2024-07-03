@@ -203,172 +203,108 @@
       </div>
 
       <div class="container-md">
-        <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <h5 class="main-title">Walter White</h5>
-              </div>
-              <div class="member-info ml-3">
-                <span class="main-title">Chief Executive Officer</span>
-                <p class="main-title">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-    
+      <div class="row gy-4">
+
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <h5 class="main-title">Sarah Johnson</h5>
+              <div class="team-member">
+                  <div class="pic">
+                      <img src="assets/img/mission.png" class="img-fluid" alt="Sarah Jhonson">
+                  </div>
+                  <div class="member-info">
+                      <h4>MISSION</h4>
+                      <p><B>Building bonds, forging connections. We're all about delivering unmatched customer
+                          value and fostering strong relationships with our network. From suppliers to partners
+                          employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.</B></p>
+
+                  </div>
               </div>
-              <div class="member-info ml-3">
-                
-                <span class="main-title">Product Manager</span>
-                <p class="main-title">Aut maiores voluptates amet et quis praesentium qui senda para</p>
-              </div>
-            </div>
           </div><!-- End Team Member -->
-    
-        </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member">
+                  <div class="pic">
+                      <img src="assets/img/vision.png" class="img-fluid" alt="Walter White">
+                  </div>
+                  <div class="member-info">
+                      <h4>VISION</h4>
+                      <p><B>Our vision is to become a leading force in the industry within the next 5 years. Join us
+                          on this journey as we bring quality, innovation, and authentic flavors to your table.</B></p>
+                  </div>
+              </div>
+          </div><!-- End Team Member -->
+
+</div>
       </div>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <h3>OUR BRANDS</h3>
+
+          <p>Milano, Sanremo, SanMatteo, Sibilia, Felecia, Alda, Royal, and more.</p>
+      
+            <div class="testimonial-item">
+              <img src="assets/img/Brands/logo's-13.png" class="testimonial-brand" alt="">
+              <img src="assets/img/Brands/logo's-10.png" class="testimonial-brand" alt="">
+              <img src="assets/img/Brands/logo's-14.png" class="testimonial-brand" alt="">
+              <img src="assets/img/Brands/logo's-12.png" class="testimonial-brand" alt="">
+              <img src="assets/img/Brands/logo's-11.png" class="testimonial-brand" alt="">
+              <img src="assets/img/Brands/Untitled-2.png" class="testimonial-brand" alt="">
+              <br><br>
+            </div>
+
+            <p>We offer a wide range of high-quality pasta for private labels differing in shapes, sizes, and colors to suit
+            all requirements.</p>
+
+            </div><!-- End testimonial item -->
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
     
+       <!-- Team Section -->
+    <section id="team" class="team section">
 
-  
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-
-    </section><!-- /Why Us Section -->
-  
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container-md" data-aos="zoom-in">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 120
-                },
-                "1200": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          <h3>COUNTRIES WE EXPORT TO:</h3>
+          <p>We export to all countries in the world, including Japan, the USA, Singapore, Uruguay, Venezuela, Gulf
+          countries, and African countries.</p><br>
+      
+            <div class="testimonial-item">
+              <div class="countries-grid">
+                  <div class="country">
+                      <img src="assets/img/Countries/01.png" class="testimonial-brand" alt="Gulf Countries">
+                      <p>Gulf Countries</p>
+                  </div>
+                  <div class="country">
+                      <img src="assets/img/Countries/05.png" class="testimonial-brand" alt="USA">
+                      <p>USA</p>
+                  </div>
+                  <div class="country">
+                      <img src="assets/img/Countries/03.png" class="testimonial-brand" alt="Japan">
+                      <p>Japan</p>
+                  </div>
+                  <div class="country">
+                      <img src="assets/img/Countries/02.png" class="testimonial-brand" alt="African Countries">
+                      <p>African Countries</p>
+                  </div>
+                  <div class="country">
+                      <img src="assets/img/Countries/Singapore.png" class="testimonial-brand" alt="Singapore">
+                      <p>Singapore</p>
+                  </div>
+                  <div class="country">
+                      <img src="assets/img/Countries/04.png" class="testimonial-brand" alt="Venezuela">
+                      <p>Venezuela</p>
+                  </div>
+              </div>
+            </div>
           </div>
-        </div>
 
-      </div>
+          </div>
 
-    </section><!-- /Clients Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services countries">
-
-      <!-- Section Title -->
-      <div class="container-md section-title">
-        <h2 class="main-title">Countries We Export To</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container-md">
-
-        <div class="row ">
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/USA.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">GULF COUNTRIES</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Venezuela.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">USA</a></h4>    
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Uruguay.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">SINGAPORE</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <!-- End Service Item -->
-
-        </div>
-
-        <br>
-
-        <div class="row">
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/USA.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">GULF COUNTRIES</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Venezuela.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">USA</a></h4>    
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Uruguay.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">SINGAPORE</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <!-- End Service Item -->
-
-        </div>
- 
-      </div>
-
-    </section><!-- /Services Section -->
-
+    </section><!-- /Team Section -->
   
   <section class="events">
       <h2 class="main-title">Events We Regularly Participate In</h2>
@@ -427,7 +363,7 @@
   <section class="packs">
       <h2 class="main-title">Our Packs</h2>
       <div class="pack-content">
-          <img src="assets/img/Royal.png" alt="Packs">
+          <img src="assets/img/Golf food.png" alt="Packs">
       </div>
   </section>
   </main>
