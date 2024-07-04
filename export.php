@@ -330,29 +330,21 @@
                 <div class="swiper sliderFeaturedPosts">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');"></a>
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Event-Slider.jpg');"></a>
                     </div>
     
                     <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Event-Slider.jpg');">
                       </a>
                     </div>
     
                     <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/services.jpg');">
                       </a>
                     </div>
     
                     <div class="swiper-slide">
                       <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');"></a>
                     </div>
     
                   </div>
