@@ -731,8 +731,8 @@ h6 {
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
@@ -1052,6 +1052,7 @@ background-color: #e3b05e;
 
 .clients .swiper-wrapper {
   height: auto;
+  
 }
 
 .clients .swiper-slide img {
@@ -2432,7 +2433,7 @@ section {
 
 .footer-container
 {
-
+  
   background-color: #001522;
 }
 

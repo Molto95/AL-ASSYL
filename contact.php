@@ -115,7 +115,7 @@
     
     <!-- Hero Section -->
     <section id="careers-cover" class="careers-cover">
-      <img src="assets/img/cta-bg.jpg" class="custom-image" style="height: 500px;">
+      <img src="assets/img/Slider-03.jpg" class="custom-image" style="height: 500px;">
     </section>  
     <!-- /Hero Section -->
 
@@ -126,7 +126,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>For business inquiries, don't hesitate to contact us!</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">

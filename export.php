@@ -245,22 +245,22 @@
       
             <div class="brands-grid">
             <div class="brand">
-              <img src="assets/img/Brands/logo's-13.png" class="brand-logo" alt="">
+              <img src="assets/img/Brands/mi_logo_2x.png" class="brand-logo" alt="Milano">
             </div>
             <div class="brand">
-              <img src="assets/img/Brands/logo's-10.png" class="brand-logo" alt="">
+              <img src="assets/img/Brands/00.png" class="brand-logo" alt="Sanremo">
             </div>
             <div class="brand">
-              <img src="assets/img/Brands/logo's-14.png" class="brand-logo" alt="">
+              <img src="assets/img/Brands/5678.png" class="brand-logo" alt="">
             </div>
             <div class="brand">
-              <img src="assets/img/Brands/logo's-12.png" class="brand-logo" alt="">
+              <img src="assets/img/Brands/9888.png" class="brand-logo" alt="">
             </div>
             <div class="brand">
-              <img src="assets/img/Brands/logo's-11.png" class="brand-logo" alt="">
+              <img src="assets/img/Brands/77667676.png" class="brand-logo" alt="">
             </div>
             <div class="brand">
-              <img src="assets/img/Brands/Royal Ex.png" class="brand-logo" alt="">
+              <img src="assets/img/Brands/Untitled-2.png" class="brand-logo" alt="">
             </div>
               <br><br>
             </div>
