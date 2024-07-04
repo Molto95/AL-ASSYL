@@ -112,8 +112,8 @@
         }
         .pack-content img
         {
-          width: 600px;
-          height: 300px;
+          width: 550px;
+          height: 450px;
         }
         .team-member {
             margin-bottom: 40px;
@@ -237,20 +237,31 @@
       </div>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <section id="brands" class="brands section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
           <h3>OUR BRANDS</h3>
-
           <p>Milano, Sanremo, SanMatteo, Sibilia, Felecia, Alda, Royal, and more.</p>
       
-            <div class="testimonial-item">
-              <img src="assets/img/Brands/logo's-13.png" class="testimonial-brand" alt="">
-              <img src="assets/img/Brands/logo's-10.png" class="testimonial-brand" alt="">
-              <img src="assets/img/Brands/logo's-14.png" class="testimonial-brand" alt="">
-              <img src="assets/img/Brands/logo's-12.png" class="testimonial-brand" alt="">
-              <img src="assets/img/Brands/logo's-11.png" class="testimonial-brand" alt="">
-              <img src="assets/img/Brands/Untitled-2.png" class="testimonial-brand" alt="">
+            <div class="brands-grid">
+            <div class="brand">
+              <img src="assets/img/Brands/logo's-13.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/logo's-10.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/logo's-14.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/logo's-12.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/logo's-11.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/Royal Ex.png" class="brand-logo" alt="">
+            </div>
               <br><br>
             </div>
 
@@ -363,7 +374,7 @@
   <section class="packs">
       <h2 class="main-title">Our Packs</h2>
       <div class="pack-content">
-          <img src="assets/img/Golf food.png" alt="Packs">
+          <img src="assets/img/Golf food 01.png" alt="Packs">
       </div>
   </section>
   </main>

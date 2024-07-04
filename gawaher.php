@@ -8,6 +8,9 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+   <!-- Main Header File -->
+   <?php include 'header.php'; ?>  
+
   <style>
     @media (min-width: 576px) {
         .container-custom {

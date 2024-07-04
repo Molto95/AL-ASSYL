@@ -141,7 +141,7 @@
   
             <div class="col-xl-4 col-md-6 " data-aos="fade-up" data-aos-delay="100" >
               <div class="service-item position-relative">
-                <h4><a href="service-details.html" class="stretched-link">EXECUTIVE ASSISTANT</a></h4>
+                <h4><a href="career-details-executive-assistant.php" class="stretched-link">EXECUTIVE ASSISTANT</a></h4>
                 <p>8 JUN 2023</p>
               </div>
             </div><!-- End Service Item -->
@@ -155,7 +155,7 @@
   
             <div class="col-xl-4 col-md-6 " data-aos="fade-up" data-aos-delay="300">
               <div class="service-item position-relative">
-                <h4><a href="service-details.html" class="stretched-link">EXPORT OFFICER</a></h4>
+                <h4><a href="career-details-export-officer.php" class="stretched-link">EXPORT OFFICER</a></h4>
                 <p>13 MAR 2023</p>
               </div>
             </div><!-- End Service Item -->
