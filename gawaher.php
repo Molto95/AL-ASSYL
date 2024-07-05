@@ -135,6 +135,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
 
+
               <div class="testimonial-item">
                 
                 <h3 class="main-title">History / Positioning</h3>
@@ -151,6 +152,7 @@
 
       </div>
 
+
       </div><!-- /Testimonials Section -->
 
     <!-- Services Section -->
@@ -165,8 +167,10 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
+
               <img src="assets/img/Pasta/Gawaher 02.png" style="width:150px; height: 180px;" alt="Walter White">
               <h6 class="mt-3 main-title">350 gm</h6>
+
             </div>
           </div>
           <div class="row mt-4">
@@ -177,6 +181,7 @@
                   <tr>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
+
                       <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
@@ -210,6 +215,7 @@
                     <td>
                       <img src="assets/img/logo9.png" alt="Logo 9">
                       <h6 class="main-title">Penna</h6>
+
                     </td>
                   </tr>
                 </tbody>
@@ -222,9 +228,11 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
+
               <h3 class="main-title">Specifications</h3>
               <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
               <h6 class="mt-3 main-title">Pillow Pack, Wheat Pasta</h6>
+
             </div>
           </div>
     </div>

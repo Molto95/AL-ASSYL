@@ -11,12 +11,20 @@
   <!-- Main Header File -->
   <?php include 'header.php'; ?>
 
+  <style>
+
+  h2
+  {
+    color: #e3b05e;
+  }
+  </style>
+  
 </head>
 
 <body class="index-page">
 
-
   <main class="main">
+
 
       <!-- Hero Section -->
       <div id="careers-cover" class="careers-cover section_w_padding position-relative">

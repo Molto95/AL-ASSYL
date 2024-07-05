@@ -346,54 +346,43 @@
         
     </div><!-- /Team Section -->
   
-      <section class="events">
-          <h2 class="main-title">Events We Regularly Participate In</h2>
-          <p class="main-title">We make sure we’re present in important FMCG events worldwide, such as Gulf
-            <br>
-            Food in Dubai, Anuga in 
-            Germany, Foodex in Japan, SIAL in Paris, Food Fancy in the <br> USA, and FOOD AFRICA in Egypt.</p>
+  <section class="events">
+      <h2 class="main-title">Events We Regularly Participate In</h2>
+      <p class="main-title">We make sure we’re present in important FMCG events worldwide, such as Gulf
+        <br>
+        Food in Dubai, Anuga in 
+        Germany, Foodex in Japan, SIAL in Paris, Food Fancy in the <br> USA, and FOOD AFRICA in Egypt.</p>
 
-              <div  data-aos="fade-in">
-                <div class="row events-slider">
-                  <div class="col-9">
-                    <div class="swiper sliderFeaturedPosts">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');"></a>
-                        </div>
-        
-                        <div class="swiper-slide">
-                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
-                          </a>
-                        </div>
-        
-                        <div class="swiper-slide">
-                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
-                          </a>
-                        </div>
-        
-                        <div class="swiper-slide">
-                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
-                        </div>
-        
-                        <div class="swiper-slide">
-                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');"></a>
-                        </div>
-        
-                        <div class="swiper-slide">
-                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');"></a>
-                        </div>
-        
-                      </div>
-                      <div class="custom-swiper-button-next">
-                        <span class="bi-chevron-right"></span>
-                      </div>
-                      <div class="custom-swiper-button-prev">
-                        <span class="bi-chevron-left"></span>
-                      </div>
-        
-                      <div class="swiper-pagination"></div>
+          <div  data-aos="fade-in">
+            <div class="row events-slider">
+              <div class="col-9">
+                <div class="swiper sliderFeaturedPosts">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Event-Slider.jpg');"></a>
                     </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Event-Slider.jpg');">
+                      </a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/services.jpg');">
+                      </a>
+                    </div>
+    
+                    <div class="swiper-slide">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
+                    </div>
+    
+                  </div>
+                  <div class="custom-swiper-button-next">
+                    <span class="bi-chevron-right"></span>
+                  </div>
+                  <div class="custom-swiper-button-prev">
+                    <span class="bi-chevron-left"></span>
+
                   </div>
                 </div>
               </div>

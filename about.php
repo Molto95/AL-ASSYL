@@ -11,7 +11,6 @@
    <!-- Main Header File -->
    <?php include 'header.php'; ?>
 
-
   <style>
     @media (min-width: 576px) {
         .container-custom {

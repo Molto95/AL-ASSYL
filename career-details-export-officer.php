@@ -10,11 +10,17 @@
 
   <!-- Main Header File -->
   <?php include 'header.php'; ?>
+  <style>
 
+  h2
+  {
+    color: #e3b05e;
+  }
+  </style>
+  
 </head>
 
 <body class="index-page">
-
 
   <main class="main">
 

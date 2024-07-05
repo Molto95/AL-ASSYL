@@ -125,7 +125,9 @@
     
     <!-- Hero Section -->
     <div id="careers-cover" class="careers-cover section_w_padding">
+
       <img src="assets/img/Royal.png" class="custom-image" style="height: 600px;">
+
       </div>  
     <!-- /Hero Section -->
 
@@ -137,6 +139,7 @@
 
               <div class="testimonial-item">
                 
+
                 <h3 class="main-title">History / Positioning</h3>
         
                 <p style="line-height: 30px;" class="main-title">
@@ -144,6 +147,7 @@
                   <span>It’s the ideal pasta brand for the family as it focuses on offering guaranteed 
                   quality, golden color, and superior <br>taste, providing varieties and convenience for 
                   mainstream pasta consumers.</span>
+
         
                 </p>
               </div>
@@ -165,6 +169,7 @@
       <div class="container">
           <div class="row">
             <!-- First Section -->
+
             <div class="col-md-12 ">
               <div class="row">
                 <div class="col-md-6">
@@ -177,6 +182,7 @@
                 </div>
               </div>
 
+
             </div>
           </div>
           <div class="row mt-4">
@@ -187,6 +193,7 @@
                   <tr>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
+
                       <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
@@ -212,6 +219,7 @@
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/6.png" src="assets/img/logo7.png" alt="Logo 7">
                       <h6 class="main-title">Penna</h6>
+
                     </td>
                   </tr>
                 </tbody>
@@ -224,9 +232,11 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
+
               <h3 class="main-title">Specifications</h3>
               <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
               <h6 class="mt-3 main-title">wheat Pasta</h6>
+
             </div>
           </div>
     </div>

@@ -137,11 +137,13 @@
 
               <div class="testimonial-item">
                 
+
                 <h3 class="main-title">History / Positioning</h3>
         
                 <p style="line-height: 30px;">
               
                   <span class="main-title">A high-quality pasta made of semolina, offering superior<br> taste and texture with 
+
                     convenient packaging to fit the needs of aspiring mainstream consumers.</span>
         
                 </p>
@@ -165,7 +167,9 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
+
               <img src="assets/img/PASTA/Milano 01.png" style="width:150px; height: 190px;" alt="Walter White">
+
               <h6 class="mt-3">350 gm</h6>
             </div>
           </div>
@@ -177,6 +181,7 @@
                   <tr>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
+
                       <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
@@ -210,6 +215,7 @@
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/7.png"  alt="Logo 9">
                       <h6 class="main-title">Shell</h6>
+
                     </td>
                   </tr>
                 </tbody>
@@ -222,9 +228,11 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
+
               <h3 class="main-title">Specifications</h3>
               <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
               <h6 class="mt-3 main-title">Pillow Pack, 50% Wheat & 50% Semolin</h6>
+
             </div>
           </div>
     </div>

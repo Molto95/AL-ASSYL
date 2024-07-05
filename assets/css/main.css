@@ -9,7 +9,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #001522  ; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #e3b05e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
 }
@@ -2760,6 +2760,7 @@ section p {
 }
 
 
+
 .section_without_margin
 {
   margin:0px;
@@ -2838,11 +2839,45 @@ section p {
   padding: 10px; /* Optional: adds padding around the text */
   text-align: center;
   z-index: 1; /* Ensures the title is above the image */
+=======
+.careers-cover {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Adjust the height to match the provided image */
+  overflow: hidden; /* Ensures any excess image is not shown */
+}
+
+.image-overlay-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
 }
 
 .custom-image {
   width: 100%;
   height: auto;
+
 }
 
+
+
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
 

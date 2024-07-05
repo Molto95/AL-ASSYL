@@ -10,13 +10,20 @@
 
   <!-- Main Header File -->
   <?php include 'header.php'; ?>
+  <style>
 
+  h2
+  {
+    color: #e3b05e;
+  }
+  </style>
+  
 </head>
 
 <body class="index-page">
 
-
   <main class="main">
+
 
       <!-- Hero Section -->
       <div id="careers-cover" class="careers-cover section_w_padding position-relative">
@@ -74,6 +81,7 @@
           <li>Confidentiality in handling sensitive financial information</li>
           <li>BSc degree in Accounting, Finance or relevant field</li>
           <li>Additional certification (e.g. CPA) is a plus</li>
+
         </ul>
       </div>
       
