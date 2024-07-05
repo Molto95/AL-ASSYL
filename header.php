@@ -44,12 +44,12 @@
           <li><a href="capabilites.php">Capabilities</a></li>
           <li><a href="export.php">Export</a></li>
           <li><a href="careers.php">Careers</a></li>
-          <li><a href="contact.php">Contact</a></li>
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="contact.php">Contact</a>
 
     </div>
   </header>

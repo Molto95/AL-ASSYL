@@ -211,7 +211,7 @@ h6 {
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
-  border-radius: 50px;
+  border-radius: 2px;
   transition: 0.3s;
 }
 
@@ -2461,7 +2461,7 @@ section {
 
 .capabilites th, .capabilites td {
   padding: 10px;
-  border: 1px solid #000;
+  border: 1px solid #e3e2e2;
   vertical-align: middle;
 }
 
@@ -2534,6 +2534,11 @@ section {
   color:#001522;
 }
 
+.second-title
+{
+  color:#e3b05e;
+}
+
 @media (min-width: 768px) {
   .col-md-5 {
       flex: 0 0 auto;
@@ -2555,6 +2560,16 @@ section {
 .left
 {
   margin-left: 150px;
+}
+
+.right
+{
+  text-align: right;
+}
+
+.align-left
+{
+  text-align:left;
 }
 
 .center
@@ -2735,7 +2750,7 @@ h3 {
 }
 
 .brand-logo {
-  max-width: 220px; /* Increased max-width for larger logos */
+  max-width: 160px; /* Increased max-width for larger logos */
   height: auto;
   object-fit: contain;
 }
@@ -2744,6 +2759,87 @@ section p {
   margin-top: 20px;
 }
 
+
+
+.section_without_margin
+{
+  margin:0px;
+  text-align: center;
+  color: var(--main-title);
+  scroll-margin-top: 88px;
+  overflow: clip;
+}
+
+.section_w_padding {
+  /* padding: 40px 20px; */
+  text-align: center;
+  color: var(--default-color);
+  background-color: white;
+  scroll-margin-top: 88px;
+  overflow: clip;
+  }
+
+  .section_w_padding_b_10 {
+    padding: 0px 0px 0px 10px;
+    text-align: center;
+    color: var(--default-color);
+    background-color: white;
+    scroll-margin-top: 88px;
+    overflow: clip;
+    }
+
+    .section_w_padding_b_30 {
+      padding: 0px 0px 0px 30px;
+      text-align: center;
+      color: var(--default-color);
+      background-color: white;
+      scroll-margin-top: 88px;
+      overflow: clip;
+      }
+
+  .section_with_margin_30
+  {
+    text-align: center;
+    color: var(--default-color);
+
+    scroll-margin-top: 88px;
+    overflow: clip;
+    margin: 30px;
+  }
+
+.m-top
+{
+  margin-top:5px;
+}
+
+.m-top-60
+{
+  margin-top:60px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.title-above-image {
+  position: absolute;
+  top: 250px; /* Adjust as needed */
+  left: 26%;
+  transform: translateX(-50%);
+  color: #001522;
+  background: white;
+  padding: 10px; /* Optional: adds padding around the text */
+  text-align: center;
+  z-index: 1; /* Ensures the title is above the image */
+=======
 .careers-cover {
   position: relative;
   width: 100%;
@@ -2755,11 +2851,17 @@ section p {
   position: relative;
   width: 100%;
   height: 100%;
+
 }
 
 .custom-image {
   width: 100%;
   height: auto;
+
+}
+
+
+
   object-fit: cover;
 }
 
@@ -2778,3 +2880,4 @@ section p {
   font-weight: bold;
   color: #000;
 }
+

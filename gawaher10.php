@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Gawaher 10Kg</title>
+  <title>Milano</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
    <!-- Main Header File -->
-   <?php include 'header.php'; ?>  
+   <?php include 'header.php'; ?> 
 
   <style>
     @media (min-width: 576px) {
@@ -104,6 +104,17 @@
             margin: 0 5px;
             color: #333;
         }
+
+        .section_w_padding {
+        /* padding: 40px 20px; */
+        text-align: center;
+        color: var(--default-color);
+        background-color: white;
+  
+        scroll-margin-top: 88px;
+        overflow: clip;
+        }
+
 </style>
 
 </head>

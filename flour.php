@@ -104,6 +104,21 @@
           margin: 0 5px;
           color: #333;
       }
+
+      .image1
+      {
+        width: 1000px;
+      }
+
+      .section_w_padding {
+        /* padding: 40px 20px; */
+        text-align: center;
+        color: var(--default-color);
+        background-color: white;
+  
+        scroll-margin-top: 88px;
+        overflow: clip;
+        }
 </style>
 
 </head>
@@ -113,66 +128,68 @@
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
+    <div id="careers-cover" class="careers-cover section_w_padding">
       <img src="assets/img/Flour page/Flour Range.png" class="custom-image" style="height: 500px;">
-    </section>  
+    </div>  
     <!-- /Hero Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <div id="testimonials" class="testimonials  section_w_padding">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-              <div class="testimonial-item">
-                <img src="assets/img/Flour page/016.png" class="testimonial-img" alt="">
-                <img src="assets/img/flour/05.png" class="testimonial-img" alt="">
-                <img src="assets/img/flour/01.png" class="testimonial-img" alt="">
-                <img src="assets/img/flour/02.png" class="testimonial-img" alt="">
-                <img src="assets/img/Flour page/05.png" class="testimonial-img" alt="">
-                <img src="assets/img/flour/03.png" class="testimonial-img" alt="">
-                <br><br>
-                <h3>HISTORY/POSITIONING</h3>
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+              <div class="testimonial-item d-flex">
+                <img src="assets/img/Flour/01.png" class="testimonial-img" style="width:220px" alt="">
+                <img src="assets/img/flour/05.png" class="testimonial-img" style="width:220px" alt="">
+                <img src="assets/img/flour/01.png" class="testimonial-img" style="width:220px" alt="">
+                <img src="assets/img/flour/02.png" class="testimonial-img" style="width:220px"  alt="">
+                <img src="assets/img/flour/05.png" class="testimonial-img" style="width:220px"  alt="">
+                <img src="assets/img/flour/03.png" class="testimonial-img" style="width:220px"  alt="">
+        
 
-                <p> After proving successful as a pasta manufacturing 
-                    company, Al Assil expanded its portfolio of business by 
+              </div>
+
+              <br><br>
+                <h3 class="main-title">HISTORY/POSITIONING</h3>
+
+                <p class="main-title"> After proving successful as a pasta manufacturing 
+                    company, Al Assil expanded its portfolio of business by <br>
                     acquiring a number of flour mills that produce various 
                     types of flour for various purposes
                 </p>
 
-              </div>
-
-              <img src="assets/img/Flour page/Vector Smart Object.png" class="testimonial-img" alt=""> 
+              <img src="assets/img/Flour page/Vector Smart Object.png" class="testimonial-img image1" alt=""> 
               <br><br>
 
-              <p> A high-quality flour obtained from high-quality Australian, American Spring wheat (15.3 protein), serving the bakery segment with superior
+              <p class="main-title"> A high-quality flour obtained from high-quality Australian, American Spring wheat (15.3 protein), serving the bakery <br> segment with superior
               functionality delivering premium baking outputs </p>
-              <p><b>High Quality Australian, American Spring wheat</b></p>
-              <p><b>15.3gm protein</b></p>
+              <p class="main-title"><b>High Quality Australian, American Spring wheat</b></p>
+              <p class="main-title"><b>15.3gm protein</b></p>
               <br>
 
-              <img src="assets/img/Flour page/01.png" class="testimonial-img" alt=""> 
+              <img src="assets/img/Flour page/01.png" class="testimonial-img image1" alt=""> 
               <br><br>
 
-              <p> An excellent quality flour obtained from Russian, Ukrainian wheat (12.5 protein), also serving the regular bakeries segment with extra convenient
+              <p class="main-title"> An excellent quality flour obtained from Russian, Ukrainian wheat (12.5 protein), also serving the regular bakeries <br>segment with extra convenient
               functionality delivering great bakery outputs </p>
-              <p><b>Russian, Ukrainian wheat</b></p>
-              <p><b>12.5gm protein</b></p>
+              <p class="main-title"><b>Russian, Ukrainian wheat</b></p>
+              <p class="main-title"><b>12.5gm protein</b></p>
               <br>
 
-              <img src="assets/img/Flour page/0363.png" class="testimonial-img" alt=""> 
+              <img src="assets/img/Flour page/0363.png" class="testimonial-img image1" alt=""> 
               <br><br>
 
-              <p>A good quality flour obtained from Russian, Ukrainian wheat (11.5 protein), serving several wide sectors such as Pasta, biscuits ... etc. with a good
+              <p class="main-title">A good quality flour obtained from Russian, Ukrainian wheat (11.5 protein), serving several wide sectors such as Pasta, biscuits ... etc.<br> with a good
               functionality, serving the mentioned sectors and delivering very good quality.</p>
-              <p><b>Russian, Ukrainian wheat</b></p>
-              <p><b>11.5gm protein</b></p>
+              <p class="main-title"><b>Russian, Ukrainian wheat</b></p>
+              <p class="main-title"><b>11.5gm protein</b></p>
 
             </div><!-- End testimonial item -->
         
 
       </div>
 
-    </section><!-- /Testimonials Section -->
-    
+    </div><!-- /Testimonials Section -->
+    <br><br>
   </main> 
   
    <!-- Main Footer File -->

@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Gawaher</title>
+  <title>Milano</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
    <!-- Main Header File -->
-   <?php include 'header.php'; ?>  
+   <?php include 'header.php'; ?> 
 
   <style>
     @media (min-width: 576px) {
@@ -104,10 +104,19 @@
             margin: 0 5px;
             color: #333;
         }
+
+        .section_w_padding {
+        /* padding: 40px 20px; */
+        text-align: center;
+        color: var(--default-color);
+        background-color: white;
+  
+        scroll-margin-top: 88px;
+        overflow: clip;
+        }
+
 </style>
-    
-    <!-- Main Header File -->
-    <?php include 'header.php'; ?>
+
 </head>
 
 <body class="index-page">
@@ -126,14 +135,15 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
 
+
               <div class="testimonial-item">
                 
-                <h3>History / Positioning</h3>
+                <h3 class="main-title">History / Positioning</h3>
         
-                <p style="line-height: 30px;">
+                <p style="line-height: 30px;" class="main-title">
               
-                  <span>A high-quality pasta made of semolina, offering superior<br> taste and texture with 
-                    convenient packaging to fit the needs of aspiring mainstream consumers.</span>
+                  <span>A value-for-money wheat pasta brand, offering perfect taste and texture for <br>the 
+                  mass market.</span>
         
                 </p>
               </div>
@@ -142,6 +152,7 @@
 
       </div>
 
+
       </div><!-- /Testimonials Section -->
 
     <!-- Services Section -->
@@ -149,15 +160,17 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-          <h2>RANGE</h2>
+          <h2 class="main-title">RANGE</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
-              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-              <h6 class="mt-3">350 gm</h6>
+
+              <img src="assets/img/Pasta/Gawaher 02.png" style="width:150px; height: 180px;" alt="Walter White">
+              <h6 class="mt-3 main-title">350 gm</h6>
+
             </div>
           </div>
           <div class="row mt-4">
@@ -168,39 +181,41 @@
                   <tr>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
-                      <h6>Penna</h6>
+
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo2.png" alt="Logo 2">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo3.png" alt="Logo 3">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/3.png" src="assets/img/logo4.png" alt="Logo 4">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img  style="width:50px;height:50px;" src="assets/img/PASTA/4.png" src="assets/img/logo5.png" alt="Logo 5">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/5.png" src="assets/img/logo6.png" alt="Logo 6">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/6.png" src="assets/img/logo7.png" alt="Logo 7">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img style="width:50px;height:50px;" src="assets/img/PASTA/7.png" src="assets/img/logo8.png" alt="Logo 8">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
                       <img src="assets/img/logo9.png" alt="Logo 9">
-                      <h6>Penna</h6>
+                      <h6 class="main-title">Penna</h6>
+
                     </td>
                   </tr>
                 </tbody>
@@ -213,9 +228,11 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
-              <h3>Specifications</h3>
+
+              <h3 class="main-title">Specifications</h3>
               <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-              <h6 class="mt-3">350 gm</h6>
+              <h6 class="mt-3 main-title">Pillow Pack, Wheat Pasta</h6>
+
             </div>
           </div>
     </div>
