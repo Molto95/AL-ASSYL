@@ -113,25 +113,25 @@
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
+    <section id="careers-cover" class="careers-cover ">
       <img src="assets/img/Slider-04.jpg" class="custom-image" style="height: 500px;">
-    </section>  
+      </section>  
     <!-- /Hero Section -->
 
        <!-- Services Section -->
-       <section id="services" class="services section">
+       <div id="services" class="services section_w_padding">
 
         <!-- Section Title -->
 
-        <div class="container section-title" data-aos="fade-up">
-          <h2>JOIN AL ASSYL GROUP TEAM</h2>
+        <div class="container-md section-title" data-aos="fade-up">
+          <h3 class="main-title"><strong>JOIN AL ASSYL GROUP TEAM</strong></h3>
           <p>Our greatest asset is our human capital. Furthermore, our aim is to create an organization with a culuture that cares for the employees, promotes their performance, and makes them feel different and proud. we take advantage of every job opportunity to acquire only the most talented and experienced individuals who fit into our culture and core values.</p>
           <br>
           If you want to be part of Al Assyl Group team, apply for one of the vacancies below ...
         </div><!-- End Section Title -->
 
         <div class="container section-title" data-aos="fade-up">
-          <h2>Careers</h2>
+          <h2 class="second-title">Careers</h2>
           
         </div><!-- End Section Title -->
   
@@ -141,22 +141,22 @@
   
             <div class="col-xl-4 col-md-6 " data-aos="fade-up" data-aos-delay="100" >
               <div class="service-item position-relative">
-                <h4><a href="career-details-executive-assistant.php" class="stretched-link">EXECUTIVE ASSISTANT</a></h4>
-                <p>8 JUN 2023</p>
+                <h4 class="main-title"><a href="career-details-executive-assistant.php" class="stretched-link">EXECUTIVE ASSISTANT</a></h4>
+                <p class="main-title">8 JUN 2023</p>
               </div>
             </div><!-- End Service Item -->
   
             <div class="col-xl-4 col-md-6 " data-aos="fade-up" data-aos-delay="200">
               <div class="service-item position-relative">
-                <h4><a href="career-details-financial-accountant.php" class="stretched-link">FINANCIAL ACCOUNTANT</a></h4>
-                <p>10 MAY 2023</p>
+                <h4 class="main-title"><a href="career-details-financial-accountant.php" class="stretched-link">FINANCIAL ACCOUNTANT</a></h4>
+                <p class="main-title">10 MAY 2023</p>
               </div>
             </div><!-- End Service Item -->
   
             <div class="col-xl-4 col-md-6 " data-aos="fade-up" data-aos-delay="300">
               <div class="service-item position-relative">
-                <h4><a href="career-details-export-officer.php" class="stretched-link">EXPORT OFFICER</a></h4>
-                <p>13 MAR 2023</p>
+                <h4 class="main-title"><a href="career-details-export-officer.php" class="stretched-link">EXPORT OFFICER</a></h4>
+                <p class="main-title">13 MAR 2023</p>
               </div>
             </div><!-- End Service Item -->
   
@@ -164,7 +164,7 @@
           <br>
         </div>
   
-      </section><!-- /Services Section -->
+      </div><!-- /Services Section -->
   </main>
 
   <!-- Main Footer File -->

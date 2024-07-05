@@ -10,6 +10,27 @@
 
    <!-- Main Header File -->
       <?php include 'header.php'; ?>  
+<style>
+    .section_with_margin_30_white
+  {
+    text-align: center;
+    color: var(--default-color);
+    background-color:white;
+    scroll-margin-top: 88px;
+    overflow: clip;
+    margin: 30px 0px;
+  }
+
+  .section_with_margin_30_gold
+  {
+    text-align: center;
+    color: var(--default-color);
+    background-color: var(--accent-color);
+    scroll-margin-top: 88px;
+    overflow: clip;
+    margin: 0px;
+  }
+</style>
 
 </head>
 
@@ -66,37 +87,37 @@
     </section>  
     <!-- /Hero Section -->
 
-  <!-- Why Us Section -->
-  <section id="why-us" class="section why-us" data-builder="section">
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-          <div class="px-xl-5" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="inline-title"><strong>ALASSIL FOOD COMPANY</strong></h3>
-            <br>
-            <p class="inline-description">
-              Al Assil Egypt is a leading producer and exporter of durum wheat. The company was 
-              established as a family business in 1980 when Al-Assil acquired his first mill for grinding 
-              grain in El Senbellawein, a small agricultural town near Mansoura.
-            </p>
-            <br>
-            <p class="inline-description">
-              Al-Assil continues to be a driving force in the world of the food industry, and now, in its 
-              fourth generation, the company provides durum wheat products across the globe.
-            </p>
+    <!-- Why Us Section -->
+    <div id="why-us" class="section_without_margin why-us" data-builder="section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+            <div class="px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="inline-title"><strong>ALASSIL FOOD COMPANY</strong></h3>
+              <br>
+              <p class="inline-description">
+                Al Assil Egypt is a leading producer and exporter of durum wheat. The company was 
+                established as a family business in 1980 when Al-Assil acquired his first mill for grinding 
+                grain in El Senbellawein, a small agricultural town near Mansoura.
+              </p>
+              <br>
+              <p class="inline-description">
+                Al-Assil continues to be a driving force in the world of the food industry, and now, in its 
+                fourth generation, the company provides durum wheat products across the globe.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-          <img src="assets/img/Factory-Illustrations.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/Factory-Illustrations.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- /Why Us Section -->
+    <!-- /Why Us Section -->
 
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <div id="services" class="services section_with_margin_30_white">
 
       <!-- Section Title -->
       <div class="container-md section-title" data-aos="fade-up">
@@ -169,54 +190,54 @@
           </div>
       </div>
 
-    </section>
+    </div>
     <!-- /Services Section -->
 
-   <!-- Team Section -->
-   <section id="team" class="team section">
+    <!-- Team Section -->
+    <div id="team" class="team section_with_margin_30_gold">
 
-    <div class="container">
+      <div class="container">
 
-        <div class="row gy-4">
+          <div class="row gy-4">
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/medal.png" class="img-fluid" alt="quality">
-                    </div>
-                    <div class="member-info">
-                        <h2 class="main-title">Quality</h2>
-                        <br>
-                        <p class="main-title">We insure to deliever high quality flour-pasta fulfilling consumers demand</p>
-                        <br>
-                        <img src="assets/img/Iso Certificates.png" class="img-fluid" alt="quality">
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <div class="team-member">
+                      <div class="pic">
+                          <img src="assets/img/medal.png" class="img-fluid" alt="quality">
+                      </div>
+                      <div class="member-info">
+                          <h2 class="main-title">Quality</h2>
+                          <br>
+                          <p class="main-title">We insure to deliever high quality flour-pasta fulfilling consumers demand</p>
+                          <br>
+                          <img src="assets/img/Iso Certificates.png" class="img-fluid" alt="quality">
+                      </div>
+                  </div>
+              </div><!-- End Team Member -->
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/factory-machine.png" class="img-fluid" alt="machinery">
-                    </div>
-                    <div class="member-info">
-                        <h2 class="main-title">Machinery</h2>
-                        <br>
-                        <p class="main-title">We obtained our machinery from European origin (Switzerland –Italy) with the latest high industry technology  with fully automated operations as well the mills pasta factories integration platform  </p>
-                        <br> <p>Join us on this journey of innovation and experience the future firsthand</p>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="team-member">
+                      <div class="pic">
+                          <img src="assets/img/factory-machine.png" class="img-fluid" alt="machinery">
+                      </div>
+                      <div class="member-info">
+                          <h2 class="main-title">Machinery</h2>
+                          <br>
+                          <p class="main-title">We obtained our machinery from European origin (Switzerland –Italy) with the latest high industry technology  with fully automated operations as well the mills pasta factories integration platform  </p>
+                          <br> <p>Join us on this journey of innovation and experience the future firsthand</p>
+                      </div>
+                  </div>
+              </div><!-- End Team Member -->
 
-        </div>
+          </div>
 
-    </div>
+      </div>
 
-  </section><!-- /Team Section -->
+    </div><!-- /Team Section -->
 
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
+    <div id="call-to-action" class="call-to-action section_with_margin_30_gold">
 
       <img src="assets/img/aerial-view-container-cargo-ship-sea.jpg" alt="">
 
@@ -232,7 +253,7 @@
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </div><!-- /Call To Action Section -->
 
   </main>
 

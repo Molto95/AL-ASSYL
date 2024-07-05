@@ -106,6 +106,12 @@
             margin: 0 5px;
             color: #333;
         }
+
+        .m-bottom
+        {
+            margin-bottom:30px;
+        }
+
   </style>
 
 </head> 
@@ -115,87 +121,90 @@
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
+    <div id="careers-cover" class="careers-cover section_without_margin">
         <img src="assets/img/ingredient-bags-full-flour.jpg" class="custom-image" style="height: 500px;">
-      </section>  
-      <!-- /Hero Section -->
+    </div>  
+    <!-- /Hero Section -->
 
     <!-- Faq 2 Section -->
-    <section id="faq-2" class="faq-2 section">
+    <div id="faq-2" class="faq-2 section_w_padding">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>ALASSIL FOOD COMPANY</h2>
-        <p>Al Assil Egypt is a leading producer and exporter of durum wheat.
-            <br>
+      <div class="container section-title main-title" data-aos="fade-up">
+        <h5 class="main-title"><strong>ALASSIL GROUP FOOD COMPANY</strong></h5>
+        <br>
+        <p class="main-title">Al Assil Egypt is a leading producer and exporter of durum wheat.
+            
             The company was 
-            established as a family business in 1980 when Al-Assil acquired his first mill for grinding 
+            established as a family business in 1980 <br> when Al-Assil acquired his first mill for grinding 
             grain in El Senbellawein,<br> a small agricultural town near Mansoura.
             <br><br>
-            Al-Assil continues to be a driving force in the world of the food industry,<br> and now, in its 
-            fourth generation, the company provides durum wheat products across the globe.
+            Al-Assil continues to be a driving force in the world of the food industry, and now, in its 
+            fourth generation, the company provides<br> durum wheat products across the globe.
             </p>
       </div><!-- End Section Title -->
 
 
 
-    </section><!-- /Faq 2 Section -->
+    </div><!-- /Faq 2 Section -->
 
 
    <!-- Team Section -->
-   <section id="team" class="team section">
+    <div id="team" class="team  section_w_padding">
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row gy-4">
+            <div class="row gy-4">
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/mission.png" class="img-fluid" alt="Sarah Jhonson">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-member">
+                        <div class="pic m-bottom">
+                            <img src="assets/img/mission.png" class="img-fluid"  style="width:40%" alt="Sarah Jhonson">
+                        </div>
+                        <div class="member-info">
+                            <h5 class="main-title m-bottom">MISSION</h5>
+                            <p class="main-title"><B>Building bonds, forging connections. We're all about delivering unmatched customer
+                                value and fostering strong relationships with our network. From suppliers to partners
+                                employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.</B></p>
+
+                        </div>
                     </div>
-                    <div class="member-info">
-                        <h4>MISSION</h4>
-                        <p><B>Building bonds, forging connections. We're all about delivering unmatched customer
-                            value and fostering strong relationships with our network. From suppliers to partners
-                            employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.</B></p>
+                </div><!-- End Team Member -->
 
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-member">
+                        <div class="pic m-bottom">
+                            <img src="assets/img/vision.png" class="img-fluid" style="width:40%" alt="Walter White">
+                            <br>
+                        </div>
+                        <div class="member-info">
+                            <h5 class="main-title m-bottom ">VISION</h5>
+                        
+                            <p class="main-title "><B>Our vision is to become a leading force in the industry within the next 5 years. Join us
+                                on this journey as we bring quality, innovation, and authentic flavors to your table.</B></p>
+                        </div>
                     </div>
-                </div>
-            </div><!-- End Team Member -->
+                </div><!-- End Team Member -->
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/vision.png" class="img-fluid" alt="Walter White">
-                    </div>
-                    <div class="member-info">
-                        <h4>VISION</h4>
-                        <p><B>Our vision is to become a leading force in the industry within the next 5 years. Join us
-                            on this journey as we bring quality, innovation, and authentic flavors to your table.</B></p>
-                    </div>
-                </div>
-            </div><!-- End Team Member -->
+            </div>
 
         </div>
 
-    </div>
-
-  </section><!-- /Team Section -->
+    </div><!-- /Team Section -->
 
 
   <div class="container history-container">
-    <h1>Our History</h1>
+    <h1 class="main-title">Our History</h1>
     <div class="timeline">
         <!-- First Row with single right item -->
         <div class="timeline-row single-item">
             <div class="timeline-year single-year">
-                <p>1988</p>
+                <p class="second-title">1988</p>
             </div>
             <div class="timeline-item right">
                 <div class="content-timeline">
                     <img src="assets/img/Sayyad Logo02-02-02.png" alt="Pasta Image 2">
-                    <p>Al Assyl pasta factory was established.</p>
+                    <p class="main-title">Al Assyl pasta factory was established.</p>
                 </div>
             </div>
         </div>
@@ -203,7 +212,7 @@
         <!-- Row with items on both sides -->
         <div class="timeline-row">
             <div class="timeline-year">
-                <p>1997</p>
+                <p class="second-title">1997</p>
             </div>
             <div class="timeline-item right">
                 <div class="content-timeline">
@@ -213,19 +222,19 @@
             <div class="timeline-item right">
                 <div class="content-timeline">
                     <img src="assets/img/lOGO 03.png" alt="Pasta Image 2">
-                    <p>Al Assyl mill.</p>
+                    <p class="main-title">Al Assyl mill.</p>
                 </div>
             </div>
         </div>
 
         <div class="timeline-row">
             <div class="timeline-year">
-                <p>2002</p>
+                <p class="second-title">2002</p>
             </div>
             <div class="timeline-item right">
                 <div class="content-timeline">
                     <img src="assets/img/lOGO 03.png" alt="Pasta Image 3">
-                    <p>Al Assyl mill 2.</p>    
+                    <p class="main-title">Al Assyl mill 2.</p>    
                 </div>
             </div>
             <div class="timeline-item right">
@@ -243,24 +252,24 @@
                 </div>
             </div>
             <div class="timeline-year">
-                <p>2003</p>
+                <p class="second-title">2003</p>
             </div>
             <div class="timeline-item right">
                 <div class="content-timeline">
                     <img src="assets/img/About Us/lOGO 04.png" alt="Pasta Image 4">
-                    <p><B>El Sayadeen</B> Pasta Factory.</p>
+                    <p class="main-title"><B>El Sayadeen</B> Pasta Factory.</p>
                 </div>
             </div>
         </div>
 
         <div class="timeline-row">
             <div class="timeline-year">
-                <p>2008</p>
+                <p class="second-title">2008</p>
             </div>
             <div class="timeline-item right">
                 <div class="content-timeline">
                     <img src="assets/img/About Us/lOGO 01.png" alt="Pasta Image 3">
-                    <p>Acquisition of <B>Wadi EL Nil</B> Mills.</p>    
+                    <p class="main-title">Acquisition of <B>Wadi EL Nil</B> Mills.</p>    
                 </div>
             </div>
             <div class="timeline-item right">
@@ -277,12 +286,12 @@
                 </div>
             </div>
             <div class="timeline-year">
-                <p>2013</p>
+                <p class="second-title">2013</p>
             </div>
             <div class="timeline-item right">
                 <div class="content-timeline">
                     <img src="assets/img/About Us/lOGO 05.png" alt="Pasta Image 4">
-                    <p><B>Milano</B> Pasta Factory.</p>
+                    <p class="main-title"><B>Milano</B> Pasta Factory.</p>
                 </div>
             </div>
         </div>

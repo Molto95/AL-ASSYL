@@ -18,41 +18,37 @@
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="container">
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
-          </ol>
-        </nav>
-        <h1>Service Details</h1>
+      <!-- Hero Section -->
+      <div id="careers-cover" class="careers-cover section_w_padding position-relative">
+        <h1 class="title-above-image">Financial Accountant</h1>
+        <img src="assets/img/Slider-04.jpg" class="custom-image" style="height: 500px;">
       </div>
-    </div><!-- End Page Title -->
 
-    <section class="job-posting " style="margin-left: 160px;">
-      <h2>FINANCIAL ACCOUNTANT</h2>
+    <!-- /Hero Section -->
+
+    <div class="job-posting" style="margin-left: 160px; margin-top:30px;">
       
-      <div class="section">
-        <h2>RESPONSIBILITIES INCLUDE</h2>
-        <ul>
+      <div class="section_with_margin_30">
+        <h2 style="text-align:left" class="second-title">RESPONSIBILITIES INCLUDE</h2>
+        <ul style="text-align:left">
           <li>Gathering and monitoring financial data (e.g. sales revenues and liabilities)</li>
           <li>Preparing monthly, quarterly and annual statements (balance sheets and income statements)</li>
           <li>Forecasting costs and revenues</li>
         </ul>
       </div>
-      
-      <div class="section">
-        <h2>JOB BRIEF</h2>
-        <p>We are looking for an experienced Financial Accountant to monitor all financial data and prepare accurate statements for our company.</p>
-        <p>Financial Accountant responsibilities include budgeting, managing tax payments and performing internal audits. You will act as a consultant for senior managers, conducting cost and revenues analyses. To be qualiaqualified for this role, you should have a degree in Accounting and relevant work experience.</p>
-        <p>Ultimately, you will ensure all our accounting transactions comply with the law and support our company’s investments.</p>
+      <br>
+      <div class="section_with_margin_30">
+        <h2 style="text-align:left" class="second-title">JOB BRIEF</h2>
+        <ul style="text-align:left">
+          <li>We are looking for an experienced Financial Accountant to monitor all financial data and prepare accurate statements for our company.</li>
+          <li>Financial Accountant responsibilities include budgeting, managing tax payments and performing internal audits. You will act as a consultant for senior managers, conducting cost and revenues analyses. To be qualiaqualified for this role, you should have a degree in Accounting and relevant work experience.</li>
+          <li>Ultimately, you will ensure all our accounting transactions comply with the law and support our company’s investments.</li>
+        </ul>
       </div>
-      
-      <div class="section">
-        <h2>RESPONSIBILITIES</h2>
-        <ul>
+      <br>
+      <div class="section_with_margin_30">
+        <h2 style="text-align:left" class="second-title">RESPONSIBILITIES</h2>
+        <ul style="text-align:left">
           <li>Gather and monitor financial data (e.g. sales revenues and liabilities)</li>
           <li>Prepare monthly, quarterly and annual statements (balance sheets and income statements)</li>
           <li>Forecast costs and revenues</li>
@@ -66,9 +62,9 @@
         </ul>
       </div>
       
-      <div class="section">
-        <h2>REQUIREMENTS AND SKILLS</h2>
-        <ul>
+      <div class="section_with_margin_30">
+        <h2 style="text-align:left" class="second-title">REQUIREMENTS AND SKILLS</h2>
+        <ul style="text-align:left">
           <li>Proven work experience as a Financial Accountant or similar role</li>
           <li>Advanced knowledge of MS Excel and accounting software</li>
           <li>In-depth understanding of business bookkeeping procedures</li>
@@ -84,7 +80,7 @@
       <div class="section">
       <strong><p>Send your CV to <a href="mailto:careers@alassil.com.eg">careers@alassil.com.eg</a></p></strong>
       </div>
-    </section>
+    </div>
   
 
   </main>

@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Ahmed El-Sayad</title>
+  <title>Milano</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-    <!-- Main Header File -->
-    <?php include 'header.php'; ?>
+   <!-- Main Header File -->
+   <?php include 'header.php'; ?> 
 
   <style>
     @media (min-width: 576px) {
@@ -104,6 +104,17 @@
             margin: 0 5px;
             color: #333;
         }
+
+        .section_w_padding {
+        /* padding: 40px 20px; */
+        text-align: center;
+        color: var(--default-color);
+        background-color: white;
+  
+        scroll-margin-top: 88px;
+        overflow: clip;
+        }
+
 </style>
 
 </head>
@@ -113,275 +124,118 @@
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="hero-slider" class="hero-slider">
-      <div class="container-md" data-aos="fade-in">
-        <div class="row">
-          <div class="col-12">
-            <div class="swiper sliderFeaturedPosts">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>The Best Homemade Masks for Face (keep the Pimples Away)</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>13 Amazing Poems from Shel Silverstein with Valuable Life Lessons</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');">
-                    <div class="img-bg-inner">
-                      <h2>9 Half-up/half-down Hairstyles for Long and Medium Hair</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');">
-                    <div class="img-bg-inner">
-                      <h2>9 Half-up/half-down Hairstyles for Long and Medium Hair</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="swiper-slide">
-                  <a href="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');">
-                    <div class="img-bg-inner">
-                      <h2>9 Half-up/half-down Hairstyles for Long and Medium Hair</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
-                    </div>
-                  </a>
-                </div>
-
-              </div>
-              <div class="custom-swiper-button-next">
-                <span class="bi-chevron-right"></span>
-              </div>
-              <div class="custom-swiper-button-prev">
-                <span class="bi-chevron-left"></span>
-              </div>
-
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>  
+    <div id="careers-cover" class="careers-cover section_w_padding">
+      <img src="assets/img/Flour page/Flour Range.png" class="custom-image" style="height: 500px;">
+      </div>  
     <!-- /Hero Section -->
 
-        <!-- Clients Section -->
-        <section id="clients" class="clients section">
+    <!-- Testimonials Section -->
+    <div id="testimonials" class="testimonials  section_w_padding">
 
-          <div class="container" data-aos="zoom-in">
-    
-            <div class="swiper init-swiper">
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  },
-                  "breakpoints": {
-                    "320": {
-                      "slidesPerView": 2,
-                      "spaceBetween": 40
-                    },
-                    "480": {
-                      "slidesPerView": 3,
-                      "spaceBetween": 60
-                    },
-                    "640": {
-                      "slidesPerView": 4,
-                      "spaceBetween": 80
-                    },
-                    "992": {
-                      "slidesPerView": 5,
-                      "spaceBetween": 120
-                    },
-                    "1200": {
-                      "slidesPerView": 6,
-                      "spaceBetween": 120
-                    }
-                  }
-                }
-              </script>
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+
+              <div class="testimonial-item">
+                
+                <h3>History / Positioning</h3>
+        
+                <p style="line-height: 30px;">
+              
+                  <span>A high-quality pasta made of semolina, offering superior<br> taste and texture with 
+                    convenient packaging to fit the needs of aspiring mainstream consumers.</span>
+        
+                </p>
               </div>
-            </div>
-    
-          </div>
-    
-        </section><!-- /Clients Section -->
+            </div><!-- End testimonial item -->
+        
 
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section">
+      </div>
 
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-
-                  <div class="testimonial-item">
-                   
-                    <h3>Saul Goodman</h3>
-            
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div><!-- End testimonial item -->
-            
-
-          </div>
-
-        </section><!-- /Testimonials Section -->
+      </div><!-- /Testimonials Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <div id="services" class="services section_w_padding">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
           <h2>RANGE</h2>
       </div><!-- End Section Title -->
 
-      <div class="container-custom">
+      <div class="container">
           <div class="row">
-              <!-- First Section -->
-              <div class="col-md-5">
-                
-                    <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-                
-                  <div class="d-flex justify-content-around align-items-start flex-wrap">
-                      <div class="image-title-container">
-                          <img src="assets/img/Flour/01.png" alt="KHEDIWE" class="img-fluid1">
-                          <div class="title">KHEDIWE</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/Flour/02.png" alt="SAYYAD ELWADI" class="img-fluid">
-                          <div class="title">SAYYAD ELWADI</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/Flour/03.png" alt="SUPER ASSIL" class="img-fluid">
-                          <div class="title">SUPER ASSIL</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/Flour/04.png" alt="IBN ELNIL" class="img-fluid">
-                          <div class="title">IBN ELNIL</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/Flour/05.png" alt="NOGOUM AL ASSYL" class="img-fluid">
-                          <div class="title">NOGOUM AL ASSYL</div>
-                      </div>
-                  </div>
-              </div>
-      
-              <!-- Vertical Line -->
-              <div class="col-md-2 d-flex justify-content-center align-items-center">
-                  <div class="vertical-line"></div>
-              </div>
-
-              <!-- Second Section -->
-              <div class="col-md-5">
-                <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-                  <div class="d-flex justify-content-around align-items-start flex-wrap">
-                      <div class="image-title-container">
-                          <img src="assets/img/PASTA/Gawaher_.png" alt="MILANO" class="img-fluid">
-                          <div class="title">MILANO</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/PASTA/Gawaher_.png" alt="ROYAL" class="img-fluid">
-                          <div class="title">ROYAL</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/PASTA/Gawaher_.png" alt="GAWAHER" class="img-fluid">
-                          <div class="title">GAWAHER</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/PASTA/Gawaher_.png" alt="GAWAHER 10Kg" class="img-fluid">
-                          <div class="title">GAWAHER 10Kg</div>
-                      </div>
-                      <div class="image-title-container">
-                          <img src="assets/img/PASTA/Gawaher_.png" alt="AL ASSYL" class="img-fluid">
-                          <div class="title">AL ASSYL</div>
-                      </div>
-                  </div>
-              </div>
+            <!-- First Section -->
+            <div class="col-md-12 centered-content">
+              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
+              <h6 class="mt-3">350 gm</h6>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <!-- Table Section -->
+            <div class="col-md-12">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo2.png" alt="Logo 2">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo3.png" alt="Logo 3">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/3.png" src="assets/img/logo4.png" alt="Logo 4">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/4.png" src="assets/img/logo5.png" alt="Logo 5">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/5.png" src="assets/img/logo6.png" alt="Logo 6">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/6.png" src="assets/img/logo7.png" alt="Logo 7">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/7.png" src="assets/img/logo8.png" alt="Logo 8">
+                      <h6>Penna</h6>
+                    </td>
+                    <td>
+                      <img src="assets/img/logo9.png" alt="Logo 9">
+                      <h6>Penna</h6>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
       </div>
 
-    </section>
+      <div class="container">
+          <div class="row">
+            <!-- First Section -->
+            <div class="col-md-12 centered-content">
+              <h3>Specifications</h3>
+              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
+              <h6 class="mt-3">350 gm</h6>
+            </div>
+          </div>
+    </div>
+      </div>
     <!-- /Services Section -->
 
-       <!-- Team Section -->
-   <section id="team" class="team section">
-
-    <div class="container">
-
-        <div class="row gy-4">
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Walter White">
-                    </div>
-
-                </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Sarah Jhonson">
-                    </div>
-
-                </div>
-            </div><!-- End Team Member -->
-
-        </div>
-
-    </div>
-
-  </section><!-- /Team Section -->
-
+      <br>
   </main>
 
   <!-- Main Footer File -->
-  <?php include 'footer.php'; ?>
+  <?php include 'footer.php'; ?> 
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

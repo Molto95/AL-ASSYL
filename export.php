@@ -69,12 +69,6 @@
         }
     }
 
-    .team-member {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
         .pic {
             margin-bottom: 15px;
         }
@@ -115,9 +109,7 @@
           width: 550px;
           height: 450px;
         }
-        .team-member {
-            margin-bottom: 40px;
-        }
+
 
         .pic {
             margin-right: 20px;
@@ -148,6 +140,39 @@
         .social a {
             margin-right: 10px;
         }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; /* Adjust gap as needed */
+          }
+
+          .country {
+            text-align: center;
+          }
+
+          .testimonial-brand {
+            max-width: 100%;
+            height: auto;
+          }
+
+          .export-mission {
+            display: flex;
+            align-items: flex-start;
+          }
+
+          .info {
+            margin-left: 1rem;
+          }
+
+
+        
 </style>
 
 </head>
@@ -157,9 +182,9 @@
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
+    <div id="careers-cover" class="careers-cover section_w_padding">
       <img src="assets/img/Slider-02.jpg" class="custom-image" style="height: 500px;">
-    </section> 
+      </div> 
     <!-- /Hero Section -->
 
     <!-- Faq 2 Section -->
@@ -178,70 +203,73 @@
     <!-- Why Us Section -->
     <section id="why-us" class="section why-us" data-builder="section">
 
-      <div class="container-md">
+    <div class="container-md" >
+      <div class="row gy-4 align-items-center justify-content-center">
+        <!-- Title Section -->
+        <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="main-title"><strong>OUR EXPORT LINE</strong></h4>
+          <p class="main-title">
+            Our company offers the best products to our customers and clients
+            regionally as well as globally, through our export brand Milano which meets
+            all international standards and regulations and ensures the safety and
+            quality of our products.
+          </p>
+        </div>
+        
+        <!-- Image Section -->
+        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
+          <img src="assets/img/Vector Smart Object-containers.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
 
+      <br><br>
+      <div class="container">
         <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
-            <div class=" px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="main-title" ><strong>OUR EXPORT LINE</strong></h3>
-              <p class="main-title">
-                Our company offers the best products to our customers and clients
-                regionally as well as globally, through our export brand Milano which meets
-                all international standards and regulations and ensures the safety and
-                quality of our products.
-              </p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="export-mission d-flex align-items-start">
+              <div class="pic">
+                <img src="assets/img/mission.png"  style="max-width:80px;" class="img-fluid" alt="">
+              </div>
+              <div class="info ms-3">
+                <span class="main-title d-block align-left" ><strong>MISSION</strong></span>
+                <p class="main-description align-left ">
+                Building bonds, forging connections. We're all about delivering unmatched customer
+                value and fostering strong relationships with our network. From suppliers to partners
+                employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.
+                </p>
+              </div>
             </div>
+          </div><!-- End Team Member -->
 
-          </div>
-
-          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="assets/img/Vector Smart Object-containers.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="export-mission d-flex align-items-start">
+              <div class="pic">
+                <img src="assets/img/vision.png" style="max-width:80px;" class="img-fluid" alt="">
+              </div>
+              <div class="info ms-3">
+                <span class="main-title d-block align-left"><strong>VISION</strong></span>
+                <p class="main-description  align-left">
+                Our vision is to become a leading force in the industry within the next 5 years. Join us
+                on this journey as we bring quality, innovation, and authentic flavors to your table.
+                </p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
         </div>
       </div>
 
-      <div class="container-md">
-      <div class="row gy-4">
+        </section>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="team-member">
-                  <div class="pic">
-                      <img src="assets/img/mission.png" class="img-fluid" alt="Sarah Jhonson">
-                  </div>
-                  <div class="member-info">
-                      <h4>MISSION</h4>
-                      <p><B>Building bonds, forging connections. We're all about delivering unmatched customer
-                          value and fostering strong relationships with our network. From suppliers to partners
-                          employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.</B></p>
+    
 
-                  </div>
-              </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="team-member">
-                  <div class="pic">
-                      <img src="assets/img/vision.png" class="img-fluid" alt="Walter White">
-                  </div>
-                  <div class="member-info">
-                      <h4>VISION</h4>
-                      <p><B>Our vision is to become a leading force in the industry within the next 5 years. Join us
-                          on this journey as we bring quality, innovation, and authentic flavors to your table.</B></p>
-                  </div>
-              </div>
-          </div><!-- End Team Member -->
-
-</div>
-      </div>
 
     <!-- Testimonials Section -->
     <section id="brands" class="brands section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <h3>OUR BRANDS</h3>
-          <p>Milano, Sanremo, SanMatteo, Sibilia, Felecia, Alda, Royal, and more.</p>
+          <h3 class="main-title">OUR BRANDS</h3>
+          <p class="main-title">Milano, Sanremo, SanMatteo, Sibilia, Felecia, Alda, Royal, and more.</p>
       
             <div class="brands-grid">
             <div class="brand">
@@ -265,7 +293,7 @@
               <br><br>
             </div>
 
-            <p>We offer a wide range of high-quality pasta for private labels differing in shapes, sizes, and colors to suit
+            <p class="main-title">We offer a wide range of high-quality pasta for private labels differing in shapes, sizes, and colors to suit
             all requirements.</p>
 
             </div><!-- End testimonial item -->
@@ -275,108 +303,109 @@
     </section><!-- /Testimonials Section -->
     
        <!-- Team Section -->
-    <section id="team" class="team section">
+    <div id="team" class="team section_w_margin">
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-          <h3>COUNTRIES WE EXPORT TO:</h3>
-          <p>We export to all countries in the world, including Japan, the USA, Singapore, Uruguay, Venezuela, Gulf
-          countries, and African countries.</p><br>
-      
+            <h3 class="main-title">COUNTRIES WE EXPORT TO:</h3>
+            <p class="main-title">We export to all countries in the world, including Japan, the USA, Singapore, Uruguay, Venezuela, Gulf
+            countries, and African countries.</p><br>
+        
             <div class="testimonial-item">
               <div class="countries-grid">
-                  <div class="country">
-                      <img src="assets/img/Countries/01.png" class="testimonial-brand" alt="Gulf Countries">
-                      <p>Gulf Countries</p>
-                  </div>
-                  <div class="country">
-                      <img src="assets/img/Countries/05.png" class="testimonial-brand" alt="USA">
-                      <p>USA</p>
-                  </div>
-                  <div class="country">
-                      <img src="assets/img/Countries/03.png" class="testimonial-brand" alt="Japan">
-                      <p>Japan</p>
-                  </div>
-                  <div class="country">
-                      <img src="assets/img/Countries/02.png" class="testimonial-brand" alt="African Countries">
-                      <p>African Countries</p>
-                  </div>
-                  <div class="country">
-                      <img src="assets/img/Countries/Singapore.png" class="testimonial-brand" alt="Singapore">
-                      <p>Singapore</p>
-                  </div>
-                  <div class="country">
-                      <img src="assets/img/Countries/04.png" class="testimonial-brand" alt="Venezuela">
-                      <p>Venezuela</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-          </div>
-
-    </section><!-- /Team Section -->
-  
-  <section class="events">
-      <h2 class="main-title">Events We Regularly Participate In</h2>
-      <p class="main-title">We make sure we’re present in important FMCG events worldwide, such as Gulf
-        <br>
-        Food in Dubai, Anuga in 
-        Germany, Foodex in Japan, SIAL in Paris, Food Fancy in the <br> USA, and FOOD AFRICA in Egypt.</p>
-
-          <div  data-aos="fade-in">
-            <div class="row events-slider">
-              <div class="col-9">
-                <div class="swiper sliderFeaturedPosts">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
-                      </a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
-                      </a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');"></a>
-                    </div>
-    
-                  </div>
-                  <div class="custom-swiper-button-next">
-                    <span class="bi-chevron-right"></span>
-                  </div>
-                  <div class="custom-swiper-button-prev">
-                    <span class="bi-chevron-left"></span>
-                  </div>
-    
-                  <div class="swiper-pagination"></div>
+                <div class="country">
+                  <img src="assets/img/Countries/01.png" class="testimonial-brand" alt="Gulf Countries">
+                  <p>Gulf Countries</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/05.png" class="testimonial-brand" alt="USA">
+                  <p>USA</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/03.png" class="testimonial-brand" alt="Japan">
+                  <p>Japan</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/02.png" class="testimonial-brand" alt="African Countries">
+                  <p>African Countries</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/Singapore.png" class="testimonial-brand" alt="Singapore">
+                  <p>Singapore</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/04.png" class="testimonial-brand" alt="Venezuela">
+                  <p>Venezuela</p>
                 </div>
               </div>
             </div>
+
+
           </div>
+
+        
+    </div><!-- /Team Section -->
   
-  </section>
-  
-  <section class="packs">
-      <h2 class="main-title">Our Packs</h2>
-      <div class="pack-content">
-          <img src="assets/img/Golf food 01.png" alt="Packs">
-      </div>
-  </section>
+      <section class="events">
+          <h2 class="main-title">Events We Regularly Participate In</h2>
+          <p class="main-title">We make sure we’re present in important FMCG events worldwide, such as Gulf
+            <br>
+            Food in Dubai, Anuga in 
+            Germany, Foodex in Japan, SIAL in Paris, Food Fancy in the <br> USA, and FOOD AFRICA in Egypt.</p>
+
+              <div  data-aos="fade-in">
+                <div class="row events-slider">
+                  <div class="col-9">
+                    <div class="swiper sliderFeaturedPosts">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');"></a>
+                        </div>
+        
+                        <div class="swiper-slide">
+                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
+                          </a>
+                        </div>
+        
+                        <div class="swiper-slide">
+                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
+                          </a>
+                        </div>
+        
+                        <div class="swiper-slide">
+                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
+                        </div>
+        
+                        <div class="swiper-slide">
+                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');"></a>
+                        </div>
+        
+                        <div class="swiper-slide">
+                          <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');"></a>
+                        </div>
+        
+                      </div>
+                      <div class="custom-swiper-button-next">
+                        <span class="bi-chevron-right"></span>
+                      </div>
+                      <div class="custom-swiper-button-prev">
+                        <span class="bi-chevron-left"></span>
+                      </div>
+        
+                      <div class="swiper-pagination"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+      </section>
+      
+      <section class="packs">
+          <h2 class="main-title">Our Packs</h2>
+          <div class="pack-content">
+              <img src="assets/img/Golf food 01.png" alt="Packs">
+          </div>
+      </section>
   </main>
 
   <!-- Main Footer File -->
