@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Milano</title>
+  <title>Ahmed El-Sayyad 10Kg</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -125,7 +125,7 @@
     
     <!-- Hero Section -->
     <div id="careers-cover" class="careers-cover section_w_padding">
-      <img src="assets/img/Flour page/Flour Range.png" class="custom-image" style="height: 500px;">
+      <img src="assets/img/PASTA/Ranges-AhmedElSayyad.png" class="custom-image" style="height: 600px;">
       </div>  
     <!-- /Hero Section -->
 
@@ -138,16 +138,14 @@
               <div class="testimonial-item">
                 
                 <h3>History / Positioning</h3>
-        
+                
                 <p style="line-height: 30px;">
               
-                  <span>A high-quality pasta made of semolina, offering superior<br> taste and texture with 
-                    convenient packaging to fit the needs of aspiring mainstream consumers.</span>
+                <span>A value-for-money wheat pasta brand, offering perfect taste and texture for the mass market.</span>
         
                 </p>
               </div>
-            </div><!-- End testimonial item -->
-        
+            </div><!-- End testimonial item -->  
 
       </div>
 
@@ -165,8 +163,8 @@
           <div class="row">
             <!-- First Section -->
             <div class="col-md-12 centered-content">
-              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-              <h6 class="mt-3">350 gm</h6>
+              <img src="assets/img/PASTA/El sayad.png" style="width:400px; height: 230px;" alt="Ahmed El-Sayyad">
+              <h6 class="mt-3">10 Kg</h6>
             </div>
           </div>
           <div class="row mt-4">
@@ -175,41 +173,41 @@
               <table class="table table-bordered">
                 <tbody>
                   <tr>
-                    <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
-                      <h6>Penna</h6>
+                  <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Penne.png" alt="Logo 1">
+                      <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo2.png" alt="Logo 2">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Rings.png"  alt="Logo 2">
+                      <h6 class="main-title">Rings</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo3.png" alt="Logo 3">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Small rings.png"  alt="Logo 3">
+                      <h6 class="main-title">Small Rings</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/3.png" src="assets/img/logo4.png" alt="Logo 4">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/elbow.png"  alt="Logo 4">
+                      <h6 class="main-title">Elbow</h6>
                     </td>
                     <td>
-                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/4.png" src="assets/img/logo5.png" alt="Logo 5">
-                      <h6>Penna</h6>
+                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/vermecili.png"  alt="Logo 5">
+                      <h6 class="main-title">Vermicelli</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/5.png" src="assets/img/logo6.png" alt="Logo 6">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Spaghetti.png" alt="Logo 6">
+                      <h6 class="main-title">Spaghetti(2.2)</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/6.png" src="assets/img/logo7.png" alt="Logo 7">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Fusili.png"  alt="Logo 7">
+                      <h6 class="main-title">Fusilli</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/7.png" src="assets/img/logo8.png" alt="Logo 8">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Spaghetti.png" alt="Logo 8">
+                      <h6 class="main-title">Spaghetti(2.4)</h6>
                     </td>
                     <td>
-                      <img src="assets/img/logo9.png" alt="Logo 9">
-                      <h6>Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/shell.png"  alt="Logo 9">
+                      <h6 class="main-title">Shell</h6>
                     </td>
                   </tr>
                 </tbody>
@@ -218,20 +216,10 @@
           </div>
       </div>
 
-      <div class="container">
-          <div class="row">
-            <!-- First Section -->
-            <div class="col-md-12 centered-content">
-              <h3>Specifications</h3>
-              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-              <h6 class="mt-3">350 gm</h6>
-            </div>
-          </div>
-    </div>
       </div>
     <!-- /Services Section -->
 
-      <br>
+      <br><br>
   </main>
 
   <!-- Main Footer File -->

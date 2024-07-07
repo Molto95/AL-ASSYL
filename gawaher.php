@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Milano</title>
+  <title>Gawaher</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -125,7 +125,7 @@
     
     <!-- Hero Section -->
     <div id="careers-cover" class="careers-cover section_w_padding">
-      <img src="assets/img/Flour page/Flour Range.png" class="custom-image" style="height: 500px;">
+      <img src="assets/img/PASTA/Ranges-Gawaher.png" class="custom-image" style="height: 600px;">
       </div>  
     <!-- /Hero Section -->
 
@@ -134,15 +134,13 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-
-
               <div class="testimonial-item">
                 
                 <h3 class="main-title">History / Positioning</h3>
         
                 <p style="line-height: 30px;" class="main-title">
               
-                  <span>A value-for-money wheat pasta brand, offering perfect taste and texture for <br>the 
+                  <span>A value-for-money wheat pasta brand, offering perfect taste and texture for the 
                   mass market.</span>
         
                 </p>
@@ -168,7 +166,7 @@
             <!-- First Section -->
             <div class="col-md-12 centered-content">
 
-              <img src="assets/img/Pasta/Gawaher 02.png" style="width:150px; height: 180px;" alt="Walter White">
+              <img src="assets/img/Pasta/Gawaher.png" style="width:150px; height: 200px;" alt="Gawaher">
               <h6 class="mt-3 main-title">350 gm</h6>
 
             </div>
@@ -179,43 +177,34 @@
               <table class="table table-bordered">
                 <tbody>
                   <tr>
-                    <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
+                  <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Penne.png" alt="Logo 1">
 
                       <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo2.png" alt="Logo 2">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Rings.png"  alt="Logo 2">
+                      <h6 class="main-title">Rings</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo3.png" alt="Logo 3">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Small rings.png"  alt="Logo 3">
+                      <h6 class="main-title">Small Rings</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/3.png" src="assets/img/logo4.png" alt="Logo 4">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/elbow.png"  alt="Logo 4">
+                      <h6 class="main-title">Elbow</h6>
                     </td>
                     <td>
-                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/4.png" src="assets/img/logo5.png" alt="Logo 5">
-                      <h6 class="main-title">Penna</h6>
+                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/vermecili.png"  alt="Logo 5">
+                      <h6 class="main-title">Vermicelli</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/5.png" src="assets/img/logo6.png" alt="Logo 6">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Rice.png" alt="Logo 6">
+                      <h6 class="main-title">Rice</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/6.png" src="assets/img/logo7.png" alt="Logo 7">
-                      <h6 class="main-title">Penna</h6>
-                    </td>
-                    <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/7.png" src="assets/img/logo8.png" alt="Logo 8">
-                      <h6 class="main-title">Penna</h6>
-                    </td>
-                    <td>
-                      <img src="assets/img/logo9.png" alt="Logo 9">
-                      <h6 class="main-title">Penna</h6>
-
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Spaghetti.png" alt="Logo 7">
+                      <h6 class="main-title">Spaghetti</h6>
                     </td>
                   </tr>
                 </tbody>
@@ -230,7 +219,7 @@
             <div class="col-md-12 centered-content">
 
               <h3 class="main-title">Specifications</h3>
-              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
+              <img src="assets/img/PASTA/wheat pasta.png" style="width:150px; height: 150px;" alt="wheat pasta">
               <h6 class="mt-3 main-title">Pillow Pack, Wheat Pasta</h6>
 
             </div>

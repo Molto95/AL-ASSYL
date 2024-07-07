@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Milano</title>
+  <title>Al Assyl</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -125,7 +125,7 @@
     
     <!-- Hero Section -->
     <div id="careers-cover" class="careers-cover section_w_padding">
-      <img src="assets/img/Flour page/Flour Range.png" class="custom-image" style="height: 500px;">
+      <img src="assets/img/PASTA/Ranges-AlAssyl.png" class="custom-image" style="height: 650px;">
       </div>  
     <!-- /Hero Section -->
 
@@ -142,16 +142,12 @@
         
                 <p class="main-title" style="line-height: 30px;">
               
-                  <span>A high-quality pasta made of semolina, offering superior<br> taste and texture with 
-                    convenient packaging to fit the needs of aspiring mainstream consumers.</span>
+                <span>A value-for-money wheat pasta brand, offering perfect taste and texture for the mass market.</span>
         
                 </p>
               </div>
             </div><!-- End testimonial item -->
-        
-
       </div>
-
 
       </div><!-- /Testimonials Section -->
 
@@ -168,8 +164,8 @@
             <!-- First Section -->
             <div class="col-md-12 centered-content">
 
-              <img src="assets/img/PASTA/Flour.png" style="width:150px; height: 180px;" alt="Walter White">
-              <h6 class="mt-3 main-title">300 gm</h6>
+              <img src="assets/img/PASTA/Flour.png" style="width:170px; height: 230px;" alt="Al Assyl">
+              <h6 class="mt-3 main-title">350 gm</h6>
 
             </div>
           </div>
@@ -179,32 +175,31 @@
               <table class="table table-bordered">
                 <tbody>
                   <tr>
-                    <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/1.png" alt="Logo 1">
+                  <td>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Penne.png" alt="Logo 1">
 
                       <h6 class="main-title">Penna</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo2.png" alt="Logo 2">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Rings.png"  alt="Logo 2">
+                      <h6 class="main-title">Rings</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/2.png" src="assets/img/logo3.png" alt="Logo 3">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Small rings.png"  alt="Logo 3">
+                      <h6 class="main-title">Small Rings</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/3.png" src="assets/img/logo4.png" alt="Logo 4">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/elbow.png"  alt="Logo 4">
+                      <h6 class="main-title">Elbow</h6>
                     </td>
                     <td>
-                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/4.png" src="assets/img/logo5.png" alt="Logo 5">
-                      <h6 class="main-title">Penna</h6>
+                      <img  style="width:50px;height:50px;" src="assets/img/PASTA/vermecili.png"  alt="Logo 5">
+                      <h6 class="main-title">Vermicelli</h6>
                     </td>
                     <td>
-                      <img style="width:50px;height:50px;" src="assets/img/PASTA/5.png" src="assets/img/logo6.png" alt="Logo 6">
-                      <h6 class="main-title">Penna</h6>
+                      <img style="width:50px;height:50px;" src="assets/img/PASTA/Rice.png" alt="Logo 6">
+                      <h6 class="main-title">Rice</h6>
                     </td>
-
                   </tr>
                 </tbody>
               </table>
@@ -218,8 +213,8 @@
             <div class="col-md-12 centered-content">
 
               <h3 class="main-title">Specifications</h3>
-              <img src="assets/img/team/team-1.jpg" style="width:150px; height: 150px;" alt="Walter White">
-              <h6 class="mt-3 main-title">350 gm</h6>
+              <img src="assets/img/PASTA/wheat pasta.png" style="width:150px; height: 150px;" alt="Wheat pasta">
+              <h6 class="mt-3 main-title">Wheat Pasta</h6>
 
             </div>
           </div>
