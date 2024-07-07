@@ -2,6 +2,12 @@
   <link href="assets/img/Al Assyl Logo V.png" rel="icon">
   <link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
 
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -49,7 +55,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="contact.php">Contact</a>
+      <a class="btn-getstarted" href="contact.php">Contact Us</a>
 
     </div>
   </header>

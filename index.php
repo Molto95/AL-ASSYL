@@ -96,14 +96,11 @@
               <h3 class="inline-title"><strong>ALASSIL FOOD COMPANY</strong></h3>
               <br>
               <p class="inline-description">
-                Al Assil Egypt is a leading producer and exporter of durum wheat. The company was 
-                established as a family business in 1980 when Al-Assil acquired his first mill for grinding 
-                grain in El Senbellawein, a small agricultural town near Mansoura.
+              Al Assyl Group Egypt is a leading producer and exporter of wheat. The company was established as a family business in 1988 when Al Assyl acquired his first mill for grinding grain in El Senbellawein.
               </p>
               <br>
               <p class="inline-description">
-                Al-Assil continues to be a driving force in the world of the food industry, and now, in its 
-                fourth generation, the company provides durum wheat products across the globe.
+              Al Assyl continues to be a driving force in the world of the food industry, and now, in its second generation, the company provides wheat products across the globe.
               </p>
             </div>
           </div>
@@ -223,8 +220,8 @@
                       <div class="member-info">
                           <h2 class="main-title">Machinery</h2>
                           <br>
-                          <p class="main-title">We obtained our machinery from European origin (Switzerland –Italy) with the latest high industry technology  with fully automated operations as well the mills pasta factories integration platform  </p>
-                          <br> <p>Join us on this journey of innovation and experience the future firsthand</p>
+                          <p class="main-title">Unleashing the power of automation, our cutting-edge facilities hail from the prestigious origins of Switzerland and Italy. With seamless precision and efficiency, we bring you a new era of operation that sets the benchmark for excellence.</p>
+                          <br> <p>Join us on this journey of innovation and experience the future firsthand.</p>
                       </div>
                   </div>
               </div><!-- End Team Member -->
@@ -278,6 +275,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

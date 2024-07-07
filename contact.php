@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact</title>
+  <title>Contact Us</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -179,29 +179,20 @@
                         </div>
                       </div> 
                     </div>
+                    <div class="info-item d-flex mb-10" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bi bi-telephone flex-shrink-0"></i>
+                        <div class="ml-3">
+                        <p class="mt-2">+20 222 5722 922</p>
+                        </div>
+                    </div><!-- End Info Item -->
+                    <div class="info-item d-flex mb-4" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bi bi-envelope flex-shrink-0"></i>
+                        <div class="ml-3">
+                        <p class="mt-2">info@alassyl.com.eg</p>
+                        </div>
+                    </div><!-- End Info Item -->
                   </div>
                 </div>
-
-
-                <div class="info-item d-flex mb-10" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div class="ml-3">
-            
-
-                  <p class="mt-2">+20 222 5722 922</p>
-
-                  </div>
-                </div><!-- End Info Item -->
-
-                <div class="info-item d-flex mb-4" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div class="ml-3">
-               
-
-                  <p class="mt-2">info@alassyl.com.eg</p>
-
-                  </div>
-                </div><!-- End Info Item -->
               </div>
             </div>
             
