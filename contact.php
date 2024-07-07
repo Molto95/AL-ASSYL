@@ -167,7 +167,7 @@
                       <div class="info-item d-flex mb-4" data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div class="ml-3">
-                          <p class="mt-2"><a class="main-title" href="https://www.google.com/maps?q=XFFW+2J2+Milano+for+food+industries+HQ,+Industrial+Area,+New+Cairo+3,+Cairo+Governorate+4716148&ftid=0x1458239c1679539b:0x995a0556377c6afa&hl=en-EG&gl=eg&entry=gps&g_ep=CAISBjYuMTQuMhgAQgJFRw%3D%3D&shorturl=1">Mansoura</a></p>
+                          <p class="mt-2"><a class="main-title" href="https://www.google.com/maps/place/30%C2%B053'04.9%22N+31%C2%B028'14.2%22E/@30.8846944,31.4706111,17z/data=!3m1!4b1!4m4!3m3!8m2!3d30.8846944!4d31.4706111?hl=en&entry=ttu">Mansoura</a></p>
                         </div>
                       </div>
                     </div>
