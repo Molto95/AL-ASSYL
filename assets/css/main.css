@@ -2839,7 +2839,7 @@ section p {
   padding: 10px; /* Optional: adds padding around the text */
   text-align: center;
   z-index: 1; /* Ensures the title is above the image */
-=======
+}
 .careers-cover {
   position: relative;
   width: 100%;
@@ -2860,11 +2860,6 @@ section p {
 
 }
 
-
-
-  object-fit: cover;
-}
-
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -2880,4 +2875,3 @@ section p {
   font-weight: bold;
   color: #000;
 }
-
