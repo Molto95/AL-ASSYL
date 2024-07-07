@@ -138,11 +138,11 @@
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
               <div class="testimonial-item d-flex">
-                <img src="assets/img/Flour/01.png" class="testimonial-img" style="width:220px" alt="">
+                <img src="assets/img/Flour/016.png" class="testimonial-img" style="width:220px" alt="">
                 <img src="assets/img/flour/05.png" class="testimonial-img" style="width:220px" alt="">
                 <img src="assets/img/flour/01.png" class="testimonial-img" style="width:220px" alt="">
                 <img src="assets/img/flour/02.png" class="testimonial-img" style="width:220px"  alt="">
-                <img src="assets/img/flour/05.png" class="testimonial-img" style="width:220px"  alt="">
+                <img src="assets/img/flour/005.png" class="testimonial-img" style="width:220px"  alt="">
                 <img src="assets/img/flour/03.png" class="testimonial-img" style="width:220px"  alt="">
         
 
@@ -152,7 +152,7 @@
                 <h3 class="main-title">HISTORY/POSITIONING</h3>
 
                 <p class="main-title"> After proving successful as a pasta manufacturing 
-                    company, Al Assil expanded its portfolio of business by <br>
+                    company, Al Assyl expanded its portfolio of business by <br>
                     acquiring a number of flour mills that produce various 
                     types of flour for various purposes
                 </p>

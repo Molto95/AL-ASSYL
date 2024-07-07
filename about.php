@@ -132,18 +132,10 @@
       <div class="container section-title main-title" data-aos="fade-up">
         <h5 class="main-title"><strong>ALASSIL GROUP FOOD COMPANY</strong></h5>
         <br>
-        <p class="main-title">Al Assil Egypt is a leading producer and exporter of durum wheat.
-            
-            The company was 
-            established as a family business in 1980 <br> when Al-Assil acquired his first mill for grinding 
-            grain in El Senbellawein,<br> a small agricultural town near Mansoura.
+        <p class="main-title">Al Assyl Group Egypt is a leading producer and exporter of wheat. The company was established as a family business in 1988 when Al Assyl acquired his first mill for grinding grain in El Senbellawein.
             <br><br>
-            Al-Assil continues to be a driving force in the world of the food industry, and now, in its 
-            fourth generation, the company provides<br> durum wheat products across the globe.
-            </p>
+            Al Assyl continues to be a driving force in the world of the food industry, and now, in its second generation, the company provides wheat products across the globe. </p>
       </div><!-- End Section Title -->
-
-
 
     </div><!-- /Faq 2 Section -->
 

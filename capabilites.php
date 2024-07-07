@@ -122,6 +122,11 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
 
             }
+
+            .main-title {
+                color: #001522;
+                text-align: left;
+            }
     </style>
 
 </head>
@@ -179,7 +184,7 @@
                     <h5 class="main-title" style="font-weight: bold;">LOCATIONS OF BRANCHES AND DISTRIBUTORS </h5>
                     <br/>
                     <p class="main-title">
-                    Al Assil is one of the top Egyptian industrial manufacturers, 
+                    Al Assyl is one of the top Egyptian industrial manufacturers, 
                     with a wide range of products that meet high standards for 
                     quality and excellence.
                     <br/><br/>

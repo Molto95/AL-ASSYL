@@ -165,7 +165,7 @@
             <div class="col-md-12 centered-content">
 
               <img src="assets/img/PASTA/Flour.png" style="width:170px; height: 230px;" alt="Al Assyl">
-              <h6 class="mt-3 main-title">350 gm</h6>
+              <h6 class="mt-3 main-title">300 gm</h6>
 
             </div>
           </div>

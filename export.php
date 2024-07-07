@@ -171,8 +171,12 @@
             margin-left: 1rem;
           }
 
+          .carousel-item {
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+        }
 
-        
 </style>
 
 </head>
@@ -389,12 +393,52 @@
       
       </section>
       
-      <section class="packs">
-          <h2 class="main-title">Our Packs</h2>
-          <div class="pack-content">
-              <img src="assets/img/Golf food 01.png" alt="Packs">
-          </div>
-      </section>
+      <section class="carousel_wrapper" data-name="Carousel">
+      <h2 class="main-title">Our Packs</h2>
+      <div class="carousel slide" data-interval="10000" id="myCarousel" style="background-image: none;">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!-- Replace image URLs below with your own images -->
+            <div class="carousel-item active" style="background-image: url('assets/img/Golf\ food.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Milano.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Royal.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Gawaher.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-AlAssyl.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-AhmedElSayyad.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Gawaher10Kg.png');">
+                <div class="container"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
   </main>
 
   <!-- Main Footer File -->
@@ -415,6 +459,15 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+      // Initialize the carousel
+      $('.carousel').carousel({
+          interval: 5000 // Adjust the interval as needed
+      });
+  </script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

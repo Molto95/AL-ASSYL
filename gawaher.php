@@ -220,7 +220,7 @@
 
               <h3 class="main-title">Specifications</h3>
               <img src="assets/img/PASTA/wheat pasta.png" style="width:150px; height: 150px;" alt="wheat pasta">
-              <h6 class="mt-3 main-title">Pillow Pack, Wheat Pasta</h6>
+              <h6 class="mt-3 main-title">Wheat Pasta</h6>
 
             </div>
           </div>

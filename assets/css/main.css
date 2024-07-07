@@ -682,7 +682,8 @@ h6 {
 }
 
 .footer .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 8px;
+  margin-top: 24px;
 }
 
 .footer .footer-links ul {
@@ -743,6 +744,11 @@ h6 {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 27.333333%;
 }
 
 /*--------------------------------------------------------------
@@ -2670,6 +2676,22 @@ section {
       margin: 0 5px;
       color: #333;
   }
+  .footer .social-buttons {
+    display: flex;
+    gap: 10px;
+}
+  .footer .social-buttons a {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #05172e;
+    text-decoration: none;
+    font-size: 18px;
+}
   
   .job-posting {
     max-width: 800px;
