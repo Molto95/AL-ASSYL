@@ -93,7 +93,7 @@
         <div class="row gy-4">
           <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
             <div class="px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="inline-title"><strong>ALASSIL FOOD COMPANY</strong></h3>
+              <h3 class="inline-title"><strong>ALASSYL FOOD COMPANY</strong></h3>
               <br>
               <p class="inline-description">
               Al Assyl Group Egypt is a leading producer and exporter of wheat. The company was established as a family business in 1988 when Al Assyl acquired his first mill for grinding grain in El Senbellawein.
