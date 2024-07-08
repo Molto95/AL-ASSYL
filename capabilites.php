@@ -193,7 +193,7 @@
                     <br/><br/>
                     With over 26 points of sale split between branches and 
                     distributors across Cairo, Alexandria, Red Sea, and other 
-                    cities, Al Assil has a total headcount of 189 salespersons.    </p>
+                    cities, Al Assil has a total count of 189 salespersons.    </p>
 
 
                 </div>
