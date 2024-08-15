@@ -8,24 +8,30 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/Al Assyl Logo V.png" rel="icon">
-  <link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
+<!-- Favicons -->
+<link href="assets/img/Al Assyl Logo V.png" rel="icon">
+<link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Main CSS File -->
+<link href="assets/css/main.css" rel="stylesheet"> 
 
   <style>
     @media (min-width: 576px) {
@@ -85,12 +91,6 @@
         }
     }
 
-    .team-member {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
         .pic {
             margin-bottom: 15px;
         }
@@ -128,12 +128,10 @@
         }
         .pack-content img
         {
-          width: 600px;
-          height: 300px;
+          width: 550px;
+          height: 450px;
         }
-        .team-member {
-            margin-bottom: 40px;
-        }
+
 
         .pic {
             margin-right: 20px;
@@ -164,55 +162,89 @@
         .social a {
             margin-right: 10px;
         }
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; /* Adjust gap as needed */
+          }
+
+          .country {
+            text-align: center;
+          }
+
+          .testimonial-brand {
+            max-width: 100%;
+            height: auto;
+          }
+
+          .export-mission {
+            display: flex;
+            align-items: flex-start;
+          }
+
+          .info {
+            margin-left: 1rem;
+          }
+
+          .carousel-item {
+            height: 500px;
+            background-size: cover;
+            background-position: center;
+        }
+
 </style>
+
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <img src="assets/img/Al Assyl Logo V.png" alt=""> 
+    </a>
+
+  <nav id="navmenu" class="navmenu">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="flour.html">Flour</a></li>
+      <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <ul>
+          <li><a href="milano.html">Milano</a></li>
+          <li><a href="royal.html">Royal</a></li>
+          <li><a href="gawaher.html">Gawaher</a></li>
+          <li><a href="AlAssyl.html">Al Assyl</a></li>
+          <li><a href="ahmed-elsayad.html">Ahmed El Sayyad 10 KG</a></li>
+          <li><a href="gawaher10.html">Gawaher 10 Kg</a></li>
+        </ul>
+      </li>
+      <li><a href="capabilites.html">Capabilities</a></li>
+      <li><a href="export.html">Export</a></li>
+      <li><a href="careers.html">Careers</a></li>
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+  </nav>
+
+  <a class="btn-getstarted" href="contact.html">Contact Us</a>
+
+  </div>
+</header>
 
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/Al Assyl Logo V.png" alt=""> 
-        <!-- <h1 class="sitename">AL ASSYL GROUP</h1> -->
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="flour.html">Flour</a></li>
-          <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="milano.html">Milano</a></li>
-              <li><a href="royal.html">Royal</a></li>
-              <li><a href="gawaher.html">Gawaher</a></li>
-              <li><a href="AlAssyl.html">Al Assyl</a></li>
-              <li><a href="ahmed-elsayad.html">Ahmed El Sayyad 10 KG</a></li>
-              <li><a href="gawaher10.html">Gawaher 10 Kg</a></li>
-            </ul>
-          </li>
-          <li><a href="capabilites.html">Capabilities</a></li>
-          <li><a href="export.html">Export</a></li>
-          <li><a href="careers.html">Careers</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="#about">Get Started</a>
-
-    </div>
-  </header>
-
   <main class="main">
     
     <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
+    <div id="careers-cover" class="careers-cover section_w_padding">
       <img src="assets/img/Slider-02.jpg" class="custom-image" style="height: 500px;">
-    </section> 
+      </div> 
     <!-- /Hero Section -->
 
     <!-- Faq 2 Section -->
@@ -231,197 +263,148 @@
     <!-- Why Us Section -->
     <section id="why-us" class="section why-us" data-builder="section">
 
-      <div class="container-md">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
-            <div class=" px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="main-title" ><strong>OUR EXPORT LINE</strong></h3>
-              <p class="main-title">
-                Our company offers the best products to our customers and clients
-                regionally as well as globally, through our export brand Milano which meets
-                all international standards and regulations and ensures the safety and
-                quality of our products.
-              </p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-            <img src="assets/img/Vector Smart Object-containers.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
+    <div class="container-md" >
+      <div class="row gy-4 align-items-center justify-content-center">
+        <!-- Title Section -->
+        <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="main-title"><strong>OUR EXPORT LINE</strong></h4>
+          <p class="main-title">
+            Our company offers the best products to our customers and clients
+            regionally as well as globally, through our export brand Milano which meets
+            all international standards and regulations and ensures the safety and
+            quality of our products.
+          </p>
+        </div>
+        
+        <!-- Image Section -->
+        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
+          <img src="assets/img/Vector Smart Object-containers.png" class="img-fluid" alt="">
         </div>
       </div>
+    </div>
 
-      <div class="container-md">
+      <br><br>
+      <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member d-flex align-items-start">
+            <div class="export-mission d-flex align-items-start">
               <div class="pic">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <h5 class="main-title">Walter White</h5>
+                <img src="assets/img/mission.png"  style="max-width:80px;" class="img-fluid" alt="">
               </div>
-              <div class="member-info ml-3">
-                <span class="main-title">Chief Executive Officer</span>
-                <p class="main-title">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+              <div class="info ms-3">
+                <span class="main-title d-block align-left" ><strong>MISSION</strong></span>
+                <p class="main-description align-left ">
+                Building bonds, forging connections. We're all about delivering unmatched customer
+                value and fostering strong relationships with our network. From suppliers to partners
+                employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.
+                </p>
               </div>
             </div>
           </div><!-- End Team Member -->
-    
+
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member d-flex align-items-start">
+            <div class="export-mission d-flex align-items-start">
               <div class="pic">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <h5 class="main-title">Sarah Johnson</h5>
+                <img src="assets/img/vision.png" style="max-width:80px;" class="img-fluid" alt="">
               </div>
-              <div class="member-info ml-3">
-                
-                <span class="main-title">Product Manager</span>
-                <p class="main-title">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+              <div class="info ms-3">
+                <span class="main-title d-block align-left"><strong>VISION</strong></span>
+                <p class="main-description  align-left">
+                Our vision is to become a leading force in the industry within the next 5 years. Join us
+                on this journey as we bring quality, innovation, and authentic flavors to your table.
+                </p>
               </div>
             </div>
           </div><!-- End Team Member -->
-    
         </div>
       </div>
+
+        </section>
+
     
 
-  
+
+    <!-- Testimonials Section -->
+    <section id="brands" class="brands section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="main-title">OUR BRANDS</h3>
+          <p class="main-title">Milano, Sanremo, SanMatteo, Sibilia, Felecia, Alda, Royal, and more.</p>
+      
+            <div class="brands-grid">
+            <div class="brand">
+              <img src="assets/img/Brands/mi_logo_2x.png" class="brand-logo" alt="Milano">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/00.png" class="brand-logo" alt="Sanremo">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/5678.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/9888.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/77667676.png" class="brand-logo" alt="">
+            </div>
+            <div class="brand">
+              <img src="assets/img/Brands/Untitled-2.png" class="brand-logo" alt="">
+            </div>
+              <br><br>
+            </div>
+
+            <p class="main-title">We offer a wide range of high-quality pasta for private labels differing in shapes, sizes, and colors to suit
+            all requirements.</p>
+
+            </div><!-- End testimonial item -->
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+    
+       <!-- Team Section -->
+    <div id="team" class="team section_w_margin">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <h3 class="main-title">COUNTRIES WE EXPORT TO:</h3>
+            <p class="main-title">We export to all countries in the world, including Japan, the USA, Singapore, Uruguay, Venezuela, Gulf
+            countries, and African countries.</p><br>
+        
+            <div class="testimonial-item">
+              <div class="countries-grid">
+                <div class="country">
+                  <img src="assets/img/Countries/01.png" class="testimonial-brand" alt="Gulf Countries">
+                  <p>Gulf Countries</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/05.png" class="testimonial-brand" alt="USA">
+                  <p>USA</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/03.png" class="testimonial-brand" alt="Japan">
+                  <p>Japan</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/02.png" class="testimonial-brand" alt="African Countries">
+                  <p>African Countries</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/Singapore.png" class="testimonial-brand" alt="Singapore">
+                  <p>Singapore</p>
+                </div>
+                <div class="country">
+                  <img src="assets/img/Countries/04.png" class="testimonial-brand" alt="Venezuela">
+                  <p>Venezuela</p>
+                </div>
+              </div>
+            </div>
 
 
-    </section><!-- /Why Us Section -->
-  
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container-md" data-aos="zoom-in">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 120
-                },
-                "1200": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
           </div>
-        </div>
 
-      </div>
-
-    </section><!-- /Clients Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services countries">
-
-      <!-- Section Title -->
-      <div class="container-md section-title">
-        <h2 class="main-title">Countries We Export To</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container-md">
-
-        <div class="row ">
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/USA.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">GULF COUNTRIES</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6" >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Venezuela.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">USA</a></h4>    
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Uruguay.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">SINGAPORE</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <!-- End Service Item -->
-
-        </div>
-
-        <br>
-
-        <div class="row">
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/USA.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">GULF COUNTRIES</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Venezuela.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">USA</a></h4>    
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-md-6 " >
-            <div class="service-item ">
-              <div class="icon"><img src="assets/img/Uruguay.png" alt="Mission Icon"></div>
-              <h4 class="main-title"><a href="service-details.html" class="stretched-link">SINGAPORE</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-          <!-- End Service Item -->
-
-        </div>
- 
-      </div>
-
-    </section><!-- /Services Section -->
-
+        
+    </div><!-- /Team Section -->
   
   <section class="events">
       <h2 class="main-title">Events We Regularly Participate In</h2>
@@ -436,29 +419,21 @@
                 <div class="swiper sliderFeaturedPosts">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-01.jpg');"></a>
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Event-Slider.jpg');"></a>
                     </div>
     
                     <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-02.jpg');">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Event-Slider.jpg');">
                       </a>
                     </div>
     
                     <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-03.jpg');">
+                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/services.jpg');">
                       </a>
                     </div>
     
                     <div class="swiper-slide">
                       <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-04.jpg');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-05.png');"></a>
-                    </div>
-    
-                    <div class="swiper-slide">
-                      <a class="img-bg d-flex align-items-end" style="background-image: url('assets/img/Slider-06.png');"></a>
                     </div>
     
                   </div>
@@ -467,22 +442,59 @@
                   </div>
                   <div class="custom-swiper-button-prev">
                     <span class="bi-chevron-left"></span>
+
                   </div>
-    
-                  <div class="swiper-pagination"></div>
                 </div>
               </div>
-            </div>
-          </div>
-  
-  </section>
-  
-  <section class="packs">
+      
+      </section>
+      
+      <section class="carousel_wrapper" data-name="Carousel">
       <h2 class="main-title">Our Packs</h2>
-      <div class="pack-content">
-          <img src="assets/img/Royal.png" alt="Packs">
-      </div>
-  </section>
+      <div class="carousel slide" data-interval="10000" id="myCarousel" style="background-image: none;">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+            <!-- Replace image URLs below with your own images -->
+            <div class="carousel-item active" style="background-image: url('assets/img/Golf\ food.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Milano.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Royal.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Gawaher.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-AlAssyl.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-AhmedElSayyad.png');">
+                <div class="container"></div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/img/PASTA/Ranges-Gawaher10Kg.png');">
+                <div class="container"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
   </main>
 
   <footer id="footer" class="footer">
@@ -492,17 +504,31 @@
         <div class="col-lg-4 col-md-6 footer-about">
 
           <div class="footer-contact ">
-            <p class="center color-white"><strong><i class="bi bi-telephone flex-shrink-0"></i></strong> <span>20 - 237604592 / 3</span></p>
+            <p class="center color-white"><strong><i class="bi bi-telephone flex-shrink-0"></i></strong> <span> 20 - 237604592 / 3</span></p>
           </div>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
             <p class="color-white"><strong><i class="bi bi-envelope flex-shrink-0"></i></strong> <span>info@alassyl.com.eg</span></p>
         </div>
+
         <div class="col-lg-4 col-md-4 footer-links">
             <p class="color-white"><strong><i class="bi bi-geo-alt flex-shrink-0"></i></strong> <span>Ahmed EL Sayed ST, El-Senbellawein City, Egypt.</span></p>
         </div>
+        
+        <div class="col-lg-4 col-md-4 footer-links">
+        <div class="social-buttons">
+                    <a href="https://www.linkedin.com/company/milano-for-food-industries/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="index.html" target="_blank">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </div>
+        </div>
+
       </div>
+      
     </div>
     
     <div class="container-copyright copyright text-center ">
@@ -525,6 +551,15 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+      // Initialize the carousel
+      $('.carousel').carousel({
+          interval: 5000 // Adjust the interval as needed
+      });
+  </script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

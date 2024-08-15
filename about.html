@@ -8,24 +8,30 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/Al Assyl Logo V.png" rel="icon">
-  <link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
+<!-- Favicons -->
+<link href="assets/img/Al Assyl Logo V.png" rel="icon">
+<link href="assets/img/Al Assyl Logo V.png" rel="apple-touch-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<!-- Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- Main CSS File -->
+<link href="assets/css/main.css" rel="stylesheet"> 
 
 
   <style>
@@ -122,253 +128,264 @@
             margin: 0 5px;
             color: #333;
         }
+
+        .m-bottom
+        {
+            margin-bottom:30px;
+        }
+
   </style>
+
+   <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/Al Assyl Logo V.png" alt=""> 
+      </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="flour.html">Flour</a></li>
+        <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="milano.html">Milano</a></li>
+            <li><a href="royal.html">Royal</a></li>
+            <li><a href="gawaher.html">Gawaher</a></li>
+            <li><a href="AlAssyl.html">Al Assyl</a></li>
+            <li><a href="ahmed-elsayad.html">Ahmed El Sayyad 10 KG</a></li>
+            <li><a href="gawaher10.html">Gawaher 10 Kg</a></li>
+          </ul>
+        </li>
+        <li><a href="capabilites.html">Capabilities</a></li>
+        <li><a href="export.html">Export</a></li>
+        <li><a href="careers.html">Careers</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+    <a class="btn-getstarted" href="contact.html">Contact Us</a>
+
+    </div>
+   </header>
 
 </head> 
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+    <main class="main">
     
-          <a href="index.html" class="logo d-flex align-items-center me-auto">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="assets/img/Al Assyl Logo V.png" alt=""> 
-            <!-- <h1 class="sitename">AL ASSYL GROUP</h1> -->
-          </a>
+        <!-- Hero Section -->
+        <div id="careers-cover" class="careers-cover section_without_margin">
+            <img src="assets/img/ingredient-bags-full-flour.jpg" class="custom-image" style="height: 500px;">
+        </div>  
+        <!-- /Hero Section -->
     
-          <nav id="navmenu" class="navmenu">
-            <ul>
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="#services">Flour</a></li>
-              <li class="dropdown"><a href="#"><span>Pasta</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="milano.html">Milano</a></li>
-                  <li><a href="royal.html">Royal</a></li>
-                  <li><a href="gawaher.html">Gawaher</a></li>
-                  <li><a href="AlAssyl.html">Al Assyl</a></li>
-                  <li><a href="ahmed-elsayad.html">Ahmed El Sayyad 10 KG</a></li>
-                  <li><a href="gawaher10.html">Gawaher 10 Kg</a></li>
-                </ul>
-              </li>
-              <li><a href="capabilites.html">Capabilities</a></li>
-              <li><a href="export.html">Export</a></li>
-              <li><a href="careers.html">Careers</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-          </nav>
+        <!-- Faq 2 Section -->
+        <div id="faq-2" class="faq-2 section_w_padding">
     
-          <a class="btn-getstarted" href="#about">Get Started</a>
-    
-        </div>
-      </header>
-
-  <main class="main">
-    
-    <!-- Hero Section -->
-    <section id="careers-cover" class="careers-cover">
-        <img src="assets/img/cta-bg.jpg" class="custom-image" style="height: 500px;">
-      </section>  
-      <!-- /Hero Section -->
-
-    <!-- Faq 2 Section -->
-    <section id="faq-2" class="faq-2 section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>ALASSIL FOOD COMPANY</h2>
-        <p>Al Assil Egypt is a leading producer and exporter of durum wheat.
+          <!-- Section Title -->
+          <div class="container section-title main-title" data-aos="fade-up">
+            <h5 class="main-title"><strong>ALASSYL GROUP FOOD COMPANY</strong></h5>
             <br>
-            The company was 
-            established as a family business in 1980 when Al-Assil acquired his first mill for grinding 
-            grain in El Senbellawein,<br> a small agricultural town near Mansoura.
-            <br><br>
-            Al-Assil continues to be a driving force in the world of the food industry,<br> and now, in its 
-            fourth generation, the company provides durum wheat products across the globe.
-            </p>
-      </div><!-- End Section Title -->
-
-
-
-    </section><!-- /Faq 2 Section -->
-
-
-   <!-- Team Section -->
-   <section id="team" class="team section">
-
-    <div class="container">
-
-        <div class="row gy-4">
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/mission.png" class="img-fluid" alt="Sarah Jhonson">
+            <p class="main-title">Al Assyl Group Egypt is a leading producer and exporter of wheat. The company was established as a family business in 1988 when Al Assyl acquired his first mill for grinding grain in El Senbellawein.
+                <br><br>
+                Al Assyl continues to be a driving force in the world of the food industry, and now, in its second generation, the company provides wheat products across the globe. </p>
+          </div><!-- End Section Title -->
+    
+        </div><!-- /Faq 2 Section -->
+    
+    
+       <!-- Team Section -->
+        <div id="team" class="team  section_w_padding">
+    
+            <div class="container">
+    
+                <div class="row gy-4">
+    
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-member">
+                            <div class="pic m-bottom">
+                                <img src="assets/img/mission.png" class="img-fluid"  style="width:40%" alt="Sarah Jhonson">
+                            </div>
+                            <div class="member-info">
+                                <h5 class="main-title m-bottom">MISSION</h5>
+                                <p class="main-title"><B>Building bonds, forging connections. We're all about delivering unmatched customer
+                                    value and fostering strong relationships with our network. From suppliers to partners
+                                    employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.</B></p>
+    
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+    
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <div class="pic m-bottom">
+                                <img src="assets/img/vision.png" class="img-fluid" style="width:40%" alt="Walter White">
+                                <br>
+                            </div>
+                            <div class="member-info">
+                                <h5 class="main-title m-bottom ">VISION</h5>
+                            
+                                <p class="main-title "><B>Our vision is to become a leading force in the industry within the next 5 years. Join us
+                                    on this journey as we bring quality, innovation, and authentic flavors to your table.</B></p>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+    
+                </div>
+    
+            </div>
+    
+        </div><!-- /Team Section -->
+    
+    
+      <div class="container history-container">
+        <h1 class="main-title">Our History</h1>
+        <div class="timeline">
+            <!-- First Row with single right item -->
+            <div class="timeline-row single-item">
+                <div class="timeline-year single-year">
+                    <p class="second-title">1988</p>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        <img src="assets/img/Sayyad Logo02-02-02.png" alt="Pasta Image 2">
+                        <p class="main-title">Al Assyl pasta factory was established.</p>
                     </div>
-                    <div class="member-info">
-                        <h4>MISSION</h4>
-                        <p><B>Building bonds, forging connections. We're all about delivering unmatched customer
-                            value and fostering strong relationships with our network. From suppliers to partners
-                            employees to consumers, we're dedicated to finding the best solutions at the most affordable prices.</B></p>
-
+                </div>
+            </div>
+    
+            <!-- Row with items on both sides -->
+            <div class="timeline-row">
+                <div class="timeline-year">
+                    <p class="second-title">1997</p>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        
                     </div>
                 </div>
-            </div><!-- End Team Member -->
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member">
-                    <div class="pic">
-                        <img src="assets/img/vision.png" class="img-fluid" alt="Walter White">
-                    </div>
-                    <div class="member-info">
-                        <h4>VISION</h4>
-                        <p><B>Our vision is to become a leading force in the industry within the next 5 years. Join us
-                            on this journey as we bring quality, innovation, and authentic flavors to your table.</B></p>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        <img src="assets/img/lOGO 03.png" alt="Pasta Image 2">
+                        <p class="main-title">Al Assyl mill.</p>
                     </div>
                 </div>
-            </div><!-- End Team Member -->
-
-        </div>
-
-    </div>
-
-  </section><!-- /Team Section -->
-
-
-  <div class="container history-container">
-    <h1>Our History</h1>
-    <div class="timeline">
-        <!-- First Row with single right item -->
-        <div class="timeline-row single-item">
-            <div class="timeline-year single-year">
-                <p>1988</p>
             </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    <img src="assets/img/Al Assyl Logo V.png" alt="Pasta Image 2">
-                    <p>Al Assyl pasta factory was established.</p>
+    
+            <div class="timeline-row">
+                <div class="timeline-year">
+                    <p class="second-title">2002</p>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        <img src="assets/img/lOGO 03.png" alt="Pasta Image 3">
+                        <p class="main-title">Al Assyl mill 2.</p>    
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Row 2 -->
+            <div class="timeline-row">
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        
+                    </div>
+                </div>
+                <div class="timeline-year">
+                    <p class="second-title">2003</p>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        <img src="assets/img/About Us/lOGO 04.png" alt="Pasta Image 4">
+                        <p class="main-title"><B>El Sayadeen</B> Pasta Factory.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="timeline-row">
+                <div class="timeline-year">
+                    <p class="second-title">2008</p>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        <img src="assets/img/About Us/lOGO 01.png" alt="Pasta Image 3">
+                        <p class="main-title">Acquisition of <B>Wadi EL Nil</B> Mills.</p>    
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="timeline-row">
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        
+                    </div>
+                </div>
+                <div class="timeline-year">
+                    <p class="second-title">2013</p>
+                </div>
+                <div class="timeline-item right">
+                    <div class="content-timeline">
+                        <img src="assets/img/About Us/lOGO 05.png" alt="Pasta Image 4">
+                        <p class="main-title"><B>Milano</B> Pasta Factory.</p>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Row with items on both sides -->
-        <div class="timeline-row">
-            <div class="timeline-year">
-                <p>1997</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    
-                </div>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    <img src="assets/img/Vector-Smart-Object.gif" alt="Pasta Image 2">
-                    <p>Al Assyl mill.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-row">
-            <div class="timeline-year">
-                <p>2002</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    <img src="assets/img/Vector-Smart-Object.gif" alt="Pasta Image 3">
-                    <p>Al Assyl mill 2.</p>    
-                </div>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    
-                </div>
-            </div>
-        </div>
-
-        <!-- Row 2 -->
-        <div class="timeline-row">
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    
-                </div>
-            </div>
-            <div class="timeline-year">
-                <p>2003</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    <img src="assets/img/About Us/lOGO 04.png" alt="Pasta Image 4">
-                    <p><B>El Sayadeen</B> Pasta Factory.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-row">
-            <div class="timeline-year">
-                <p>2008</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    <img src="assets/img/About Us/lOGO 01.png" alt="Pasta Image 3">
-                    <p>Acquisition of <B>Wadi EL Nil</B> Mills.</p>    
-                </div>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="timeline-row">
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    
-                </div>
-            </div>
-            <div class="timeline-year">
-                <p>2013</p>
-            </div>
-            <div class="timeline-item right">
-                <div class="content-timeline">
-                    <img src="assets/img/About Us/lOGO 05.png" alt="Pasta Image 4">
-                    <p><B>Milano</B> Pasta Factory.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-  </main>
-
-
-  <footer id="footer" class="footer">
-
-    <div class="footer-container">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-
-          <div class="footer-contact ">
-            <p class="center color-white"><strong><i class="bi bi-telephone flex-shrink-0"></i></strong> <span>20 - 237604592 / 3</span></p>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-            <p class="color-white"><strong><i class="bi bi-envelope flex-shrink-0"></i></strong> <span>info@alassyl.com.eg</span></p>
-        </div>
-        <div class="col-lg-4 col-md-4 footer-links">
-            <p class="color-white"><strong><i class="bi bi-geo-alt flex-shrink-0"></i></strong> <span>Ahmed EL Sayed ST, El-Senbellawein City, Egypt.</span></p>
-        </div>
-      </div>
     </div>
     
-    <div class="container-copyright copyright text-center ">
-      <p><span>All Rights Reserved</span> ©<strong class="px-1 sitename">AL ASSYL GROUP 2024</strong></p>
-    </div>
-  </footer>
+      </main>
+
+      <footer id="footer" class="footer">
+
+        <div class="footer-container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+    
+              <div class="footer-contact ">
+                <p class="center color-white"><strong><i class="bi bi-telephone flex-shrink-0"></i></strong> <span> 20 - 237604592 / 3</span></p>
+              </div>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+                <p class="color-white"><strong><i class="bi bi-envelope flex-shrink-0"></i></strong> <span>info@alassyl.com.eg</span></p>
+            </div>
+    
+            <div class="col-lg-4 col-md-4 footer-links">
+                <p class="color-white"><strong><i class="bi bi-geo-alt flex-shrink-0"></i></strong> <span>Ahmed EL Sayed ST, El-Senbellawein City, Egypt.</span></p>
+            </div>
+            
+            <div class="col-lg-4 col-md-4 footer-links">
+            <div class="social-buttons">
+                        <a href="https://www.linkedin.com/company/milano-for-food-industries/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="index.html" target="_blank">
+                            <i class="fas fa-home"></i>
+                        </a>
+                    </div>
+            </div>
+    
+          </div>
+          
+        </div>
+        
+        <div class="container-copyright copyright text-center ">
+          <p><span>All Rights Reserved</span> ©<strong class="px-1 sitename">AL ASSYL GROUP 2024</strong></p>
+        </div>
+      </footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
