@@ -9,13 +9,15 @@
   <meta content="" name="keywords">
 
   <!-- Main Header File -->
-  <?php include 'header.php'; ?>
+  <?php include 'header.php'; ?> 
+
   <style>
 
   h2
   {
     color: #e3b05e;
   }
+  
   </style>
   
 </head>
